@@ -1,4 +1,4 @@
-# Boundry Effects
+# Boundary Effects
 
 ##Planar Capacitor
 

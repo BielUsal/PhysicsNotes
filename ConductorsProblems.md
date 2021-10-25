@@ -29,11 +29,26 @@ $$C = \frac{Q}{\varphi_1-\varphi_2} = \frac{Q}{Q(P_{11}+P_{22}-2P_{12})}$$
 #### Planar:
 If we ignore [[boundary effects]], we'll have the following shenanigans:
 
-It is trivial to see that the field inside the capacitor must be: $$\frac{\sigma}{\epsilon_0}$$
+It is trivial to see that the field inside the capacitor must be: 
+$$\vec{E} = \frac{\sigma}{\epsilon_0}\hat{n}$$
 
 So let's say that we go from one of the conductors from the other, we will have that 
 
-$$\Delta \varphi = (E d)$$
+$$\Delta \varphi = \frac{\sigma d}{\epsilon_0} =\frac{Q d}{S \epsilon_0} $$
 
 And,therefore, we have the trivial result that:
-$$C = \frac{Q}{E d}$$
+$$C = \frac{Q}{\frac{Q d}{S \epsilon_0}} = \frac{S \epsilon_0}{d}$$
+
+#### Spherical:
+The field on the inside of the shit will be:
+
+$$E = \frac{Q}{4\pi \epsilon_0 r^2}$$
+
+The potential will be trivial:
+$$\varphi = \frac{Q}{4\pi \epsilon_0 r}$$
+
+That is, 
+$$\Delta \varphi =  \frac{Q}{4\pi \epsilon_0}\left(\frac{1}{a}-\frac{1}{b}\right)$$
+Therefore, the capacity will be:
+
+$$C = \frac{4\pi\epsilon_0}{\left(\frac{1}{a}-\frac{1}{b}\right)}$$
