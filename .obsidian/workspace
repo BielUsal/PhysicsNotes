@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "43e17fa2606fde3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "09b31d2aae45ac34",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ConductorsProblems.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97ea987c16d591ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "07283b6b42b6ccbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2298565a01ccb4d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "94754ca307b0ccde",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6028c74c2b438a87",
+    "type": "split",
+    "children": [
+      {
+        "id": "8aa3e1ed8fe2bf90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39fc67b091920b31",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ConductorsProblems.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "09b31d2aae45ac34",
+  "lastOpenFiles": [
+    "ConductorsProblems.md",
+    "Boundary Effects.md",
+    "README.md",
+    "SOODE-Linear-NonHomogenous.md",
+    "boundary effects.md"
+  ]
+}
