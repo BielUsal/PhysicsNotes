@@ -1,0 +1,14 @@
+{
+  "spellcheck": true,
+  "vimMode": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "spellcheckDictionary": [
+    "Thermomechanical",
+    "hydrostatic",
+    "thermomechanical",
+    "Isothermal",
+    "compressibility",
+    "Calorimetric"
+  ]
+}

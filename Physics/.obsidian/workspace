@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "4760ee8432c126bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "58849fe0bbf7e01d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Thermodynamics/The Thermodynamical Laws.md",
+            "mode": "source"
+          }
+        },
+        "group": "71f9ec847c73e957"
+      },
+      {
+        "id": "450af3e706c41ec2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Thermodynamics/The Thermodynamical Laws.md",
+            "mode": "preview"
+          }
+        },
+        "group": "71f9ec847c73e957"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "029ddea09029071f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3680b63d8df8ec08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e526f346b5db91c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "48789334e6c715ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "25307ff693e8f2e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "4adc546d110d69df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "765b566345e666b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Thermodynamics/The Thermodynamical Laws.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "58849fe0bbf7e01d",
+  "lastOpenFiles": [
+    "Thermodynamics/The Thermodynamical Laws.md",
+    "Thermodynamics/The Thermodynamic Coefficients.md",
+    "Thermodynamics/Thermodynamics.md",
+    "Classical Mechanics/conservation of energy.md",
+    "Thermodynamics/internal energy.md",
+    "Thermodynamics/The Thermomedynamical Coefficients.md",
+    "Thermodynamics/Untitled.md",
+    "Differential Equations/Differential Equations.md",
+    "Differential Equations/ODEs/ODEs.md",
+    "Differential Equations/ODEs/Bernoulli Differential Equation.md"
+  ]
+}
