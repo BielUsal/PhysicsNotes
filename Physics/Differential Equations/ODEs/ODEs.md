@@ -5,7 +5,7 @@ ODEs are our bread and butter, and I'll follow a very cut-and-dry deal here.
 #### [[First Order]]:
 The most basic kind, where the highest order derivative is 1.
 
-#### [[Second Order]]:
-Say we have a mechanical situation with N degrees of freedom. [[Lagrange's Equation]] will give us N 2nd order differential equations. As such, most problems in mechanics are 2nd Order Diff. Equations, and we will then have to pay special attention to these.
-#### [[Nth Order]]: 
-Uhhh let's hope we can make this a second order equation.
+#### [[Higher Order]]:
+While we could focus almost exclusively on 2nd order differential equations, because physics is almost entirely that. [[Lagrange's equations]] of motion will give us N 2nd order differential equations. Poisson's/Laplace equation will give us a 2nd order [[PDEs|PDE]]. 
+
+So, it would make sense if we talked about them. However, it is almost trivial to generalize from 2nd into nth order, and it would be pretty dumb to limit ourselves to 2nd order for no reason.
