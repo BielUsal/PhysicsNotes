@@ -1,0 +1,2 @@
+# Existence and Uniqueness of Solutions for First Order ODE's
+Let $y' = f(x,y)$ and $y(x_0) = y_0$. A solution exists if $f(x,y)$ is [[continuous]] at $(x_0,y_0)$, and it is unique if $f(x,y)$ is [[Lipschitz continuous in y]] at $(x_0,y_0)$

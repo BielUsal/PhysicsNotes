@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Thermodynamics/The Thermodynamical Laws.md",
+            "file": "Differential Equations/ODEs/Second Order/Second Order.md",
             "mode": "source"
           }
         },
@@ -21,11 +21,22 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Thermodynamics/The Thermodynamical Laws.md",
+            "file": "Differential Equations/ODEs/Second Order/Second Order.md",
             "mode": "preview"
           }
         },
         "group": "71f9ec847c73e957"
+      },
+      {
+        "id": "ce588625cbefc00c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Differential Equations/ODEs/First Order/First Order.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thermodynamics/The Thermodynamical Laws.md",
+                "file": "Differential Equations/ODEs/Second Order/Second Order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +112,15 @@
   },
   "active": "58849fe0bbf7e01d",
   "lastOpenFiles": [
-    "Thermodynamics/The Thermodynamical Laws.md",
-    "Thermodynamics/The Thermodynamic Coefficients.md",
-    "Thermodynamics/Thermodynamics.md",
-    "Classical Mechanics/conservation of energy.md",
-    "Thermodynamics/internal energy.md",
-    "Thermodynamics/The Thermomedynamical Coefficients.md",
-    "Thermodynamics/Untitled.md",
-    "Differential Equations/Differential Equations.md",
+    "Differential Equations/ODEs/Second Order/Second Order.md",
+    "Differential Equations/ODEs/First Order/First Order.md",
     "Differential Equations/ODEs/ODEs.md",
-    "Differential Equations/ODEs/Bernoulli Differential Equation.md"
+    "Differential Equations/ODEs/First Order/Geometry of FOODEs.md",
+    "Differential Equations/ODEs/First Order/Lipschitz continuous in y.md",
+    "Differential Equations/ODEs/First Order/Ricatti Equation.md",
+    "Differential Equations/ODEs/numerical methods.md",
+    "Differential Equations/ODEs/First Order/Picard–Lindelöf theorem.md",
+    "Differential Equations/ODEs/Pasted image 20211021233532.png",
+    "Differential Equations/ODEs/integrating factor(s).md"
   ]
 }

@@ -22,4 +22,4 @@ There are 3 equivalent formulations of which, and two are the shittiest things a
 
 $(\Delta S)_{univ} \geq 0$
 
-Where $S$ is the [[entropy ]]
+Where $S$ is the [[entropy]]

@@ -1,6 +1,6 @@
 # Boundary Effects
 
-##Planar Capacitor
+## Planar Capacitor
 
 It isn't anything very mysterious. We start by doing a little trolling (line-integration):
 

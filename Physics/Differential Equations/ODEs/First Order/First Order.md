@@ -29,7 +29,12 @@ Just do some shabung and shabang, easy to program
 ####
 ---
 ## Existence and Uniqueness of Solutions:
+It is given by the [[Picard–Lindelöf theorem]]
 
-Let $y' = f(x,y)$ and $y(x_0) = y_0$. A solution exists if $f(x,y)$ is [[continuous]] at $(x_0,y_0)$, and it is unique if $f(x,y)$ is [[Lipschitz continuous in y]] at $(x_0,y_0)$
 
 ---
+## Geometric Considerations
+Look, I would be lying if I said I even remotely knew anything about geometry, especially if it has some of those spooky words attached to it (Differential, sympletic, conformal, Riemmanian, etc...) and my good friend *Владимир Игорович Арнолдь* and his Ordinary Differential Equations book.
+
+**HOWEVER**, first order equations have a very [[Geometry of FOODEs|natural and pretty picture]] to paint since they *do* represent first order derivatives, and, from Calc 1, we know those represent tangents.
+
