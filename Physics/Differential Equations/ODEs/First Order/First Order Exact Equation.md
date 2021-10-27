@@ -5,7 +5,7 @@ $$M(x,y)+y'N(x,y) = 0$$
 
 We can rewrite it in a more suggestive form:
 $$M(x,y)dx + N(x,y)dy = 0$$
-It will be an exact differential equation if it can be written as the total derivative of some function $\Phi(x,y)$:
+It will be an [[exact differential]] equation if it can be written as the total derivative of some function $\Phi(x,y)$:
 $$d\Phi(x,y) = M(x,y)dx + N(x,y)dy = 0$$
 
 For this to be the case, it must be that:

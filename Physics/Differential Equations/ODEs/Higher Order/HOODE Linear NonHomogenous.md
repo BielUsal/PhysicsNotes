@@ -25,7 +25,7 @@ That is, it will be a linear combination of the homogenenous solutions and the i
 
 
 #### Method of [[variation of parameters]]
-Let's say that, hypothetically, we are a friend of the solutions to the homogeneous equations. Furthermore, let's stipulate for the sake of argument that they are very hecking valid (and form a complete [[solution set|]]). Moreover, let us assume that we want to know the general solution to our equation. Then, for the sake of argument, we are so in love with refuting the libtards that we promote the constants to functions based on *meritocracy*, not on *gender, race or any other bias.* Then, we can easily solve our initial equation.
+Let's say that, hypothetically, we are a friend of the solutions to the homogeneous equations. Furthermore, let's stipulate for the sake of argument that they are very hecking valid (and form a complete [[linearly independent solutions|solution set]]). Moreover, let us assume that we want to know the general solution to our equation. Then, for the sake of argument, we are so in love with refuting the libtards that we promote the constants to functions based on *meritocracy*, not on *gender, race or any other bias.* Then, we can easily solve our initial equation.
 
 Having said that, the basic idea here is to promote the constants $c_i$ into functions $c_i(x)$ and essentially assume that everything will work out. Our solution will have the form of:
 

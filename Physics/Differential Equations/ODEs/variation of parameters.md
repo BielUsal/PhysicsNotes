@@ -1,2 +1,2 @@
 # Variation of Parameters
-Pretend your functions are constants!
+Pretend your constants are functions!

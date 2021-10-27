@@ -4,39 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "58849fe0bbf7e01d",
+        "id": "f6c09742c5502e8e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Differential Equations/ODEs/Second Order/Second Order.md",
+            "file": "Differential Equations/ODEs/Higher Order/Linear Higher Order ODE.md",
             "mode": "source"
           }
         },
-        "group": "71f9ec847c73e957"
+        "group": "9c84ff5fcfd31ab1"
       },
       {
-        "id": "450af3e706c41ec2",
+        "id": "744d472c98bfd8d3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Differential Equations/ODEs/Second Order/Second Order.md",
+            "file": "Differential Equations/ODEs/Higher Order/Linear Higher Order ODE.md",
             "mode": "preview"
           }
         },
-        "group": "71f9ec847c73e957"
-      },
-      {
-        "id": "ce588625cbefc00c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Differential Equations/ODEs/First Order/First Order.md",
-            "mode": "source"
-          }
-        }
+        "group": "9c84ff5fcfd31ab1"
       }
     ],
     "direction": "vertical"
@@ -92,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Equations/ODEs/Second Order/Second Order.md",
+                "file": "Differential Equations/ODEs/Higher Order/Linear Higher Order ODE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "58849fe0bbf7e01d",
+  "active": "f6c09742c5502e8e",
   "lastOpenFiles": [
-    "Differential Equations/ODEs/Second Order/Second Order.md",
-    "Differential Equations/ODEs/First Order/First Order.md",
-    "Differential Equations/ODEs/ODEs.md",
-    "Differential Equations/ODEs/First Order/Geometry of FOODEs.md",
-    "Differential Equations/ODEs/First Order/Lipschitz continuous in y.md",
-    "Differential Equations/ODEs/First Order/Ricatti Equation.md",
+    "Differential Equations/ODEs/Higher Order/Linear Higher Order ODE.md",
+    "Differential Equations/ODEs/Higher Order/Linear Inhomogeneous with constant coefficient.md",
+    "Differential Equations/ODEs/Higher Order/linearly independent solutions.md",
+    "Differential Equations/ODEs/Higher Order/Higher Order.md",
+    "Differential Equations/ODEs/Higher Order/HOODE Linear NonHomogenous.md",
+    "Linear homogeneous with constant coefficient.md",
+    "Differential Equations/ODEs/Higher Order/Reducing the Order.md",
+    "Differential Equations/ODEs/integrating factor(s).md",
     "Differential Equations/ODEs/numerical methods.md",
-    "Differential Equations/ODEs/First Order/Picard–Lindelöf theorem.md",
-    "Differential Equations/ODEs/Pasted image 20211021233532.png",
-    "Differential Equations/ODEs/integrating factor(s).md"
+    "Differential Equations/ODEs/ODEs.md"
   ]
 }

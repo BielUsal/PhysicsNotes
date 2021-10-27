@@ -13,7 +13,7 @@ $$\Delta U = Q + W $$
 And, in differential form, can be written as
 
 $$dU = \delta Q + \delta W $$
-
+(Where the $\delta$ implies that it is not an [[exact differential]], **not** a virtual displacement.)
 **First Law ensures that energy is conserved globally**
 ## 2nd Law:
 The big boy of thermodynamics, which exists to mainly explain why some 'legal' processes happen and others don't (While it is thermodynamically legal for a hot coffee to suck out all of the heat of a room, it surprisingly doesn't happen)

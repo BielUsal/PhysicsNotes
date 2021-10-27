@@ -26,7 +26,9 @@ This will be by no means extensive, it's just what I found truly necessary:
 #### [[Euler's Method]]
 Just do some shabung and shabang, easy to program
 
-####
+#### [[Picard Iteration]]
+Iterate the fucker
+
 ---
 ## Existence and Uniqueness of Solutions:
 It is given by the [[Picard–Lindelöf theorem]]
