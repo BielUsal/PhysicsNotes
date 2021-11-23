@@ -13,3 +13,7 @@ These are the *things* which we usually measure or observe, and are defined a pr
 
 ---
 ### [[The Thermodynamics of a Closed System]]
+
+---
+
+### [[Legendre Transform of the energetic representation| The different energetic representations]]

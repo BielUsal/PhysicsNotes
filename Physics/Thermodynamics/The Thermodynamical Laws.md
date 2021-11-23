@@ -6,14 +6,14 @@ If two systems are allowed to thermally interact for long enough, they will reac
 **The 0th Law defines temperature**
 
 ## 1st Law:
-There exists such a thing as *[[internal energy]]*, $U$, and it respects [[conservation of energy]].  This is represented by the very famous equation of:
+There exists such a thing as *[[internal energy]]*, $U$, and it respects [[Conservation of Energy]].  This is represented by the very famous equation of:
 
 $$\Delta U = Q + W $$
 
 And, in differential form, can be written as
 
 $$dU = \delta Q + \delta W $$
-(Where the $\delta$ implies that it is not an [[exact differential]], **not** a virtual displacement.)
+(Where the $\delta$ implies that it is not an [[Exact differential]], **not** a virtual displacement.)
 **First Law ensures that energy is conserved globally**
 ## 2nd Law:
 The big boy of thermodynamics, which exists to mainly explain why some 'legal' processes happen and others don't (While it is thermodynamically legal for a hot coffee to suck out all of the heat of a room, it surprisingly doesn't happen)

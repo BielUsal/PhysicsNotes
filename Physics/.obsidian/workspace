@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "7841091e31ae8afc",
+        "id": "201b1247abf2c398",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Thermodynamics/Main Representations of Hydrostatic Systems.md",
+            "file": "Energy of a system of point-charges.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "b0607ad5d58b4fd1"
+      },
+      {
+        "id": "9e2abe100161a9b6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Energy of a system of point-charges.md",
+            "mode": "preview"
+          }
+        },
+        "group": "b0607ad5d58b4fd1"
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thermodynamics/Main Representations of Hydrostatic Systems.md",
+                "file": "Energy of a system of point-charges.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7841091e31ae8afc",
+  "active": "201b1247abf2c398",
   "lastOpenFiles": [
+    "Energy of a system of point-charges.md",
+    "Electrodynamics/Energy and forces.md",
+    "How to actually study the processes.md",
+    "Classical Mechanics/Collisions/Differential cross-section.md",
+    "Classical Mechanics/Collisions/Scattering by a central potential.md",
+    "Classical Mechanics/Collisions/Effective section.md",
+    "Classical Mechanics/Classical Mechanics.md",
+    "Classical Mechanics/Conservation of Energy.md",
     "Thermodynamics/Main Representations of Hydrostatic Systems.md",
-    "Thermodynamics/The Thermodynamics of a Closed System.md",
-    "Thermodynamics/Thermodynamics.md",
-    "Thermodynamics/The Thermodynamical Laws.md",
-    "Differential Equations/ODEs/Systems of ODEs/Linear Systems of Equations.md",
-    "Differential Equations/ODEs/Systems of ODEs/Reducing into higher order.md",
-    "Differential Equations/ODEs/Systems of ODEs/Systems of ODEs.md",
-    "Thermodynamics/The Thermodynamic Coefficients.md",
-    "Differential Equations/ODEs/numerical methods.md",
-    "Differential Equations/ODEs/ODEs.md"
+    "Differential Equations/Exact differential.md"
   ]
 }

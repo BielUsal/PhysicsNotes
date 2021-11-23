@@ -16,3 +16,6 @@ Sometimes, you'll be lucky enough to have something that you can reduce the orde
 If you have something slightly non-linear in basically any way that isn't carefully constructed to be an Exact Derivative's Derivative, you're fucked. Might as well grab a cactus and shove it up your ass
 
 ---
+## [[Solutions by Power Series| How to Shove a Cactus up your Ass]]
+
+Here is a formal treatment of how you could solve some harder linear equations.
