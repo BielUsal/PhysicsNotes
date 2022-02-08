@@ -9,23 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Energy of a system of point-charges.md",
-            "mode": "source"
+            "file": "The Harmonic Oscillator in 1D.md",
+            "mode": "source",
+            "source": false
           }
-        },
-        "group": "b0607ad5d58b4fd1"
-      },
-      {
-        "id": "9e2abe100161a9b6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Energy of a system of point-charges.md",
-            "mode": "preview"
-          }
-        },
-        "group": "b0607ad5d58b4fd1"
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Energy of a system of point-charges.md",
+                "file": "The Harmonic Oscillator in 1D.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +89,15 @@
   },
   "active": "201b1247abf2c398",
   "lastOpenFiles": [
-    "Energy of a system of point-charges.md",
-    "Electrodynamics/Energy and forces.md",
-    "How to actually study the processes.md",
-    "Classical Mechanics/Collisions/Differential cross-section.md",
-    "Classical Mechanics/Collisions/Scattering by a central potential.md",
-    "Classical Mechanics/Collisions/Effective section.md",
-    "Classical Mechanics/Classical Mechanics.md",
-    "Classical Mechanics/Conservation of Energy.md",
-    "Thermodynamics/Main Representations of Hydrostatic Systems.md",
-    "Differential Equations/Exact differential.md"
+    "The Harmonic Oscillator in 1D.md",
+    "Classical Mechanics/2nd Semester/Small Oscilations and Normal Modes.md",
+    "Classical Mechanics/2nd Semester/Lagrangian and Hamiltonian Dynamics.md",
+    "Classical Mechanics/2nd Semester/Mechanics II.md",
+    "Thermodynamics/2nd Semester/Quick Review.md",
+    "Thermodynamics/2nd Semester/The phenomenology and classification of phase transitions.md",
+    "Phase Transitions.md",
+    "Thermodynamics/2nd Semester/Basic Presentation.md",
+    "Pasted image 20211025203459.png",
+    "Classical Mechanics/1st Semester/Conservation of Energy.md"
   ]
 }

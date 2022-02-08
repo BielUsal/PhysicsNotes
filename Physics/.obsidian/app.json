@@ -10,5 +10,7 @@
     "Isothermal",
     "compressibility",
     "Calorimetric"
-  ]
+  ],
+  "legacyEditor": false,
+  "livePreview": true
 }

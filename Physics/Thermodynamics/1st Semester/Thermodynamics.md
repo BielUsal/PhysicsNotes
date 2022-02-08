@@ -17,3 +17,6 @@ These are the *things* which we usually measure or observe, and are defined a pr
 ---
 
 ### [[Legendre Transform of the energetic representation| The different energetic representations]]
+
+---
+### [[Chemical Potential and all assorted shticks| Dealing with stuff that can vary]]

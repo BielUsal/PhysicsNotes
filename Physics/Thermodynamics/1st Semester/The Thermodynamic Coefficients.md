@@ -10,6 +10,10 @@ $$\alpha = \frac{1}{v}\left(\frac{\partial V}{\partial T}\right)_P$$
 
 $$\kappa_T = -\frac{1}{V}\left(\frac{\partial V}{\partial P}\right)_T$$
 
+#### Adiabatic Compressibility Coefficient:
+$$\kappa_T = -\frac{1}{V}\left(\frac{\partial V}{\partial P}\right)_S$$
+
+
 ##### Piezothermal Coefficient:
 
 $$\beta = \frac{1}{P} \left(\frac{\partial V}{\partial T}\right)_V$$
