@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "The Harmonic Oscillator in 1D.md",
+            "file": "Linearization of the Equations of Movement.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Harmonic Oscillator in 1D.md",
+                "file": "Linearization of the Equations of Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "201b1247abf2c398",
   "lastOpenFiles": [
-    "The Harmonic Oscillator in 1D.md",
+    "Linearization of the Equations of Movement.md",
     "Classical Mechanics/2nd Semester/Small Oscilations and Normal Modes.md",
+    "Classical Mechanics/2nd Semester/The Harmonic Oscillator in 1D.md",
+    "Thermodynamics/2nd Semester/Ehrenfest Classification.md",
+    "Thermodynamics/2nd Semester/The phenomenology and classification of phase transitions.md",
     "Classical Mechanics/2nd Semester/Lagrangian and Hamiltonian Dynamics.md",
     "Classical Mechanics/2nd Semester/Mechanics II.md",
     "Thermodynamics/2nd Semester/Quick Review.md",
-    "Thermodynamics/2nd Semester/The phenomenology and classification of phase transitions.md",
-    "Phase Transitions.md",
-    "Thermodynamics/2nd Semester/Basic Presentation.md",
-    "Pasted image 20211025203459.png",
-    "Classical Mechanics/1st Semester/Conservation of Energy.md"
+    "Thermodynamics/2nd Semester/Phase Transitions.md",
+    "Thermodynamics/2nd Semester/Basic Presentation.md"
   ]
 }

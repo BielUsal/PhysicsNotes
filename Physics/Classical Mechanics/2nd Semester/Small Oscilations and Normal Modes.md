@@ -12,4 +12,8 @@ We will have to assume quite a few things for everything to go smoothly:
 - We will be restricting ourselves to small oscillations around (stable or unstable) equilibrium points
 
 ## Our best friend: [[The Harmonic Oscillator in 1D]]
-This is where the band comes into its own, artistically and commercially.
+This is where the physics comes into its own, artistically and commercially.
+
+## The [[Linearization of the Equations of Movement]]
+
+We will use the framework of analytical mechanics in holonomous system with schleronomous constraints. Let's go
