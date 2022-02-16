@@ -2,7 +2,7 @@
 
 ## The Basics
 
-To even talk about mechanics at all, we need a starting point. This could be D!Alambert's principle, it could be Hamilton's principle, or it could even be Newton's Law. We will chose the latter, just so we can start without huge leaps in formalism:
+To even talk about mechanics at all, we need a starting point. This could be D'Alambert's principle, it could be Hamilton's principle, or it could even be Newton's Law. We will chose the latter, just so we can start without huge leaps in formalism:
 
 $$\vec{F} = \dot{\vec{p}}$$
 
@@ -16,6 +16,7 @@ This leads us to, once we actually do the variational procedure, with the Euler-
 
 $$\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right)-\frac{\partial L}{\partial q}$$
 
+The rigorous treatment of the [[Lagrangian Formalism]] will be left to its own section, and [[Hamiltonian Formalism]] will be mostly ignored during this section, since they must be equivalent.
 ## Generalized Coordinates
 
 Let us have a system of $n$ particles moving in 3D space and $m$ holonomic (To make it simpler) constraints on our particles. The dimensionality of our problem, a.k.a. its degrees of freedom, will be:

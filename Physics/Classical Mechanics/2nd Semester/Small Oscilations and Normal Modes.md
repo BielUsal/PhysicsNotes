@@ -16,4 +16,7 @@ This is where the physics comes into its own, artistically and commercially.
 
 ## The [[Linearization of the Equations of Movement]]
 
-We will use the framework of analytical mechanics in holonomous system with schleronomous constraints. Let's go
+We will use the framework of analytical mechanics in holonomous system with schleronomous constraints. This will be a fat one, since it sets the ground rules, applies them and gives us what to work with for the rest of this section
+
+## The simpler case: [[Undampened oscillations]]
+Here, we won't have to worry about the pesky velocity terms.

@@ -20,3 +20,7 @@ These are the *things* which we usually measure or observe, and are defined a pr
 
 ---
 ### [[Chemical Potential and all assorted shticks| Dealing with stuff that can vary]]
+
+---
+### [[Basic Presentation|Further topics in thermo]]
+This is the rest of the course, conveniently separated for ease of use.

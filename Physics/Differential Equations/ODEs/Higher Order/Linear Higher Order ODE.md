@@ -40,3 +40,6 @@ $$a_n x^{n}y^{(n)} + a_{n-1} x^{n-1}y^{(n-1)} + \cdots + a_1 x y' + a_0 y = 0$$
 
 The most general case. Hopefully you won't have to do many of these, 
 $$a_n(x)y^{(n)}+a_{n-1}(x)y^{(n-1)} + \cdots + a_0(x)y = f(x)$$
+
+#### If second order, we also classify them by their [[Classification of linear 2nd order ODEs]]
+This is just a very specific and useful classification

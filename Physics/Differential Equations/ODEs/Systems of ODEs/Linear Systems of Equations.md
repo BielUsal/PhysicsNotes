@@ -20,6 +20,6 @@ Here, we are left with either the trivial solution, $\vec{\alpha} = \vec{0}$, wh
 
 $$det(A-kI) = 0$$
 
-By doing this we'll find the values of $k$ and can plug them back into our original function
+By doing this we'll find the values of $k$ and can plug them back into our original function. This is, of course, an eigenvalue-eigenvector problem
 
 Then, we take the $\vec{\alpha} \to \vec{\alpha}(t)$ and do the usual [[variation of parameters]].

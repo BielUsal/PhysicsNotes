@@ -17,4 +17,7 @@ Or
 $$\kappa_{T1}(T,P) \neq \kappa_{T2}(T,P)$$
 Or 
 $$\bar{C}_{p1}(T,P) = \bar{C}_{p2}(T,P)$$
-Or anything else of the sorts.
+Or anything else of the sorts. Since these coefficients are related, usually there will be a discontinuity in more than one of them.
+![Handbook of Food Engineering](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.routledgehandbooks.com%2Fassets%2F9781420014372%2Fgraphics%2Ffig3_2.jpg&f=1&nofb=1)
+
+In this diagram, a) is a first order phase transition, b) is a second order (or continuous) phase transition and c) is none of them

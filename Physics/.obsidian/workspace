@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linearization of the Equations of Movement.md",
+            "file": "Classical Mechanics/2nd Semester/Undampened oscillations.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linearization of the Equations of Movement.md",
+                "file": "Classical Mechanics/2nd Semester/Undampened oscillations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "201b1247abf2c398",
   "lastOpenFiles": [
-    "Linearization of the Equations of Movement.md",
+    "Classical Mechanics/2nd Semester/Undampened oscillations.md",
+    "Differential Equations/ODEs/Higher Order/Classification of linear 2nd order ODEs.md",
     "Classical Mechanics/2nd Semester/Small Oscilations and Normal Modes.md",
-    "Classical Mechanics/2nd Semester/The Harmonic Oscillator in 1D.md",
-    "Thermodynamics/2nd Semester/Ehrenfest Classification.md",
-    "Thermodynamics/2nd Semester/The phenomenology and classification of phase transitions.md",
-    "Classical Mechanics/2nd Semester/Lagrangian and Hamiltonian Dynamics.md",
+    "Classical Mechanics/2nd Semester/Linearization of the Equations of Movement.md",
+    "Differential Equations/ODEs/Higher Order/Linear Higher Order ODE.md",
+    "Differential Equations/ODEs/Systems of ODEs/Linear Systems of Equations.md",
+    "hyperbolic 2nd order ODE.md",
     "Classical Mechanics/2nd Semester/Mechanics II.md",
-    "Thermodynamics/2nd Semester/Quick Review.md",
-    "Thermodynamics/2nd Semester/Phase Transitions.md",
-    "Thermodynamics/2nd Semester/Basic Presentation.md"
+    "Classical Mechanics/2nd Semester/The Harmonic Oscillator in 1D.md",
+    "Thermodynamics/2nd Semester/Systematic treatment of the classic FOPT.md"
   ]
 }

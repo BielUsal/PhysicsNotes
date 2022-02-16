@@ -8,9 +8,17 @@ I.e., to understand phase transitions we need to get $p(T)$, that is, a state fu
 
 We could still put a lot more examples here.  This one doesn't even describe water, since that expands when freezing! However, the basic idea and ways to analyze it don't really change, so it'd be a wasted effort, at least to some degree.
 
+----
 ## Classifying our wackyness:
 
 There are 3 main ways to classify phase-transitions that make sense. The first will build upon our intuition about what *should* classify them: The Gibbs Free Energy (that, for a monocomponent system, is *basically* the chemical potential).
 
 ## The [[Ehrenfest Classification]]
 Discontinuities are key to talking about phase-transition, because that is what they are at a fundamental level: Jumps.
+
+## [[ Landau Theory]]
+Here, we do not talk about derivatives but about the variables themselves. The fundamental idea is to treat phase transitions as spontaneous symmetry breaking.
+
+## The modern [[Fisher classification|(Fisher) Classification]]
+
+----
