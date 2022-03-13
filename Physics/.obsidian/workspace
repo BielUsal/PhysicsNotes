@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "201b1247abf2c398",
+        "id": "7841091e31ae8afc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Classical Mechanics/2nd Semester/Undampened oscillations.md",
+            "file": "Classical Mechanics/2nd Semester/Linearization of the Equations of Movement.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classical Mechanics/2nd Semester/Undampened oscillations.md",
+                "file": "Classical Mechanics/2nd Semester/Linearization of the Equations of Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "201b1247abf2c398",
+  "active": "7841091e31ae8afc",
   "lastOpenFiles": [
-    "Classical Mechanics/2nd Semester/Undampened oscillations.md",
-    "Differential Equations/ODEs/Higher Order/Classification of linear 2nd order ODEs.md",
-    "Classical Mechanics/2nd Semester/Small Oscilations and Normal Modes.md",
     "Classical Mechanics/2nd Semester/Linearization of the Equations of Movement.md",
-    "Differential Equations/ODEs/Higher Order/Linear Higher Order ODE.md",
-    "Differential Equations/ODEs/Systems of ODEs/Linear Systems of Equations.md",
-    "hyperbolic 2nd order ODE.md",
-    "Classical Mechanics/2nd Semester/Mechanics II.md",
+    "Classical Mechanics/2nd Semester/Small Oscilations and Normal Modes.md",
     "Classical Mechanics/2nd Semester/The Harmonic Oscillator in 1D.md",
-    "Thermodynamics/2nd Semester/Systematic treatment of the classic FOPT.md"
+    "Differential Equations/ODEs/First Order/Ricatti Equation.md",
+    "Thermodynamics/The Thermodynamic Coefficients.md",
+    "Differential Equations/ODEs/Higher Order/linearly independent solutions.md",
+    "Differential Equations/ODEs/Higher Order/Euler Equation.md",
+    "Differential Equations/ODEs/Higher Order/Linear Inhomogeneous with constant coefficient.md",
+    "Thermodynamics/Main Representations of Hydrostatic Systems.md",
+    "Thermodynamics/The Thermodynamics of a Closed System.md"
   ]
 }
