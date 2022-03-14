@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Classical Mechanics/2nd Semester/Linearization of the Equations of Movement.md",
+            "file": "Classical Mechanics/2nd Semester/Normal modes/The Double Pendulum.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classical Mechanics/2nd Semester/Linearization of the Equations of Movement.md",
+                "file": "Classical Mechanics/2nd Semester/Normal modes/The Double Pendulum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "7841091e31ae8afc",
   "lastOpenFiles": [
+    "Classical Mechanics/2nd Semester/Normal modes/The Double Pendulum.md",
+    "Classical Mechanics/2nd Semester/Normal modes/Undampened oscillations.md",
+    "Classical Mechanics/2nd Semester/Normal modes/Transverse Oscillations on a rope.md",
+    "Classical Mechanics/2nd Semester/Normal modes/The Harmonic Oscillator in 1D.md",
+    "Classical Mechanics/2nd Semester/Normal modes/Small Oscilations and Normal Modes.md",
+    "Classical Mechanics/2nd Semester/Normal modes/Driven Damped Pendulum.md",
     "Classical Mechanics/2nd Semester/Linearization of the Equations of Movement.md",
     "Classical Mechanics/2nd Semester/Small Oscilations and Normal Modes.md",
     "Classical Mechanics/2nd Semester/The Harmonic Oscillator in 1D.md",
-    "Differential Equations/ODEs/First Order/Ricatti Equation.md",
-    "Thermodynamics/The Thermodynamic Coefficients.md",
-    "Differential Equations/ODEs/Higher Order/linearly independent solutions.md",
-    "Differential Equations/ODEs/Higher Order/Euler Equation.md",
-    "Differential Equations/ODEs/Higher Order/Linear Inhomogeneous with constant coefficient.md",
-    "Thermodynamics/Main Representations of Hydrostatic Systems.md",
-    "Thermodynamics/The Thermodynamics of a Closed System.md"
+    "Differential Equations/ODEs/First Order/Ricatti Equation.md"
   ]
 }
