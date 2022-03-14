@@ -54,3 +54,25 @@ $$\frac{1}{P}dP = \frac{1}{R}\left(\Delta b + \frac{\Delta a}{T} + \frac{\Delta 
 Which is trivially solved:
 
 $$\ln\left(\frac{P}{P_{0}}\right) = \frac{1}{R} \left(\Delta a\ln(T) + \Delta b T + \frac{\Delta c}{2T^{2}} - \frac{\Delta d}{T} +C_{0}\right)$$
+## Fusion curves:
+
+### First approximation
+
+Here, we get 2 (Two) extra assumptions: 
+$$\Delta\bar{V} = cte$$
+$$\Delta \bar{S} = cte$$
+Which will lead us to:
+
+$$P-P_{0}= \frac{(T-T_0)\Delta\bar{S}}{\Delta\bar{V}}$$
+
+Which is a very simple formula.
+
+### Second approximation:
+
+Here, our assumptions minimally change to:
+$$\Delta\bar{V} = cte$$
+$$\Delta \bar{H} = cte$$
+Which will lead us to:
+
+$$P = \frac{\Delta\bar{H}}{\Delta\bar{V}} \ln\left(\frac{T}{T_{0}}\right)$$
+Which also is a decently simple formula (one which we could easily expand for $T$ near $T_0$)

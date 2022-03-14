@@ -20,3 +20,17 @@ We will use the framework of analytical mechanics in holonomous system with schl
 
 ## The simpler case: [[Undampened oscillations]]
 Here, we won't have to worry about the pesky velocity terms.
+
+## The not-so-simple case: [[The Double Pendulum]]
+This is an example where it makes a lot of sense to apply our formalism. 
+
+## The fundamental case: [[Coupled Oscillators]]
+This is extremely similar to the double pendulum.
+
+## Degeneracy: [[A classical example of degeneracy| A classical example]]
+Orthogonality may not be guaranteed;
+
+## [[Driven Damped Pendulum]] (DDP)
+Quintessential example of chaos.
+
+## Towards Continuity and a Field Theory: [[Transverse Oscillations on a rope]]
