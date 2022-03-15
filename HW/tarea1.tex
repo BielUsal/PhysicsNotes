@@ -158,6 +158,7 @@ Es importante mencionar que, una vez encontrados $\eta(t)$ y $\xi(t)$, podemos t
 
 \begin{equation}
   \begin{aligned}
+  \label{equonts}
     Q_1(t) = \frac{\eta(t) + \xi(t)}{2}\\
     Q_2(t) = \frac{\eta(t) - \xi(t)}{2} 
   \end{aligned}
@@ -207,7 +208,7 @@ De esta manera, podemos escribir las ecuaciones para los dos:
 \xi(t) = e^{-\frac{R}{6CL} t}  A_2\cos{\left(\frac{1}{6CL} t + B_2\right)} 
 \end{equation}
 
-Por lo que tenemos que la solución general de nuestro sistema será:
+Por lo que tenemos que la solución general de nuestro sistema será\footnote{Se ha absorbido el factor de $\frac{1}{2}$ de la ecuación \eqref{equonts} a las constantes. Al final, una constante partido dos es otra constante.}:
 
 \begin{equation}
   \begin{aligned}
@@ -270,7 +271,7 @@ Para este problema, lo más conveniente es utilizar la distancia del vértice co
   \includegraphics{repr.jpg}
 \end{figure}
 
-\subsubsection{Lagrangiano}
+\subsubsection*{Lagrangiano}
 Trivialmente podemos calcular la energía cinética, que nos saldrá:
 
 \begin{equation}
@@ -294,9 +295,21 @@ O sea, nuestro Lagrangiano será:
   L = \frac{1}{2}m (\dot{\rho_1} + \dot{\rho_2}) - \frac{1}{2}k (\sqrt{\rho_1^2 + \rho_2^2 -2\rho_1\rho_2\cos{(2\alpha)}} - l_0)^2 + mg\cos{(\alpha)}\left(\rho_1+\rho_2\right)
 \end{equation}
 
+\subsubsection*{Equilibrio}
+
+No es trivial obtener las posiciones de equilibrio de este sistema, pero utilizaremos dos hechos para hacerlo: 1) En el equilibrio, la derivada con respeto a las coordenadas es 0. 2) Por simetría, el equilibrio de este problema requiere $\rho_{1eq} = \rho_{2 eq} =\rho_{eq}$\footnote{Si el argumento de simetría no es suficiente, tomando los dos parciales y haciéndolos 0 te dará un sistema de ecuaciones donde una de las soluciones será esta condición.}. De esta manera, somo conducidos a:
+
+$$\left(\frac{\partial U}{\partial \rho_1}\right)_{\rho_1 = \rho_2 = \rho_{eq}} = 2(2\rho_{eq} \sin(\alpha)-l_0)\frac{k(2-\cos(2a))}{\sin(\alpha)} + mg\cos{(\alpha)} = 0$$
+
+De manera que:
+
+\begin{equation}
+\label{eq}
+\rho_{eq} = \frac{l_0}{2\sin(\alpha)} - \frac{mg \cos{\alpha}}{4k(2-\cos{(2\alpha)})} 
+\end{equation}
 
 \subsubsection*{Autofrecuencias}
-Si cambiamos de coordenadas, de modo que $(0,0)$ es el punto de equilibrio de nuestro sistema, será trivial extraer las matrices de masa y de rigidez\footnote{En estes sistemas, se eliminan todos los términos de orden diferente que dos del potencial, de manera que la matriz de rigidez, que no es más que el hessiano del potencial en el equilibrio, se podrá encontrar basicamente por inspección.}, que serán respectivamente: 
+Si cambiamos de coordenadas, de modo que $\bar{\rho}_{i} = \rho_{i} - \rho_{i eq} $, será trivial extraer las matrices de masa y de rigidez\footnote{En coordenadas de equilibrio, hechas las expansiones de Taylor, \textit{siempre} se eliminan todos los términos de orden diferente que 2 del potencial, y como la matriz de rigidez es estrictamente los coeficientes de estos términos, no será más que un ejercicio en encontrar estos términos cuadráticos.}, que serán respectivamente: 
 \begin{equation}
   M = m\begin{pmatrix}
     1&0\\0&1
@@ -338,7 +351,7 @@ Antes de sacar los modos normales, que a priori pueden ser nada-triviales, es in
   \includegraphics[width=0.5\textwidth]{masamuelle.png}
 \end{figure}
 
-Como $\cos{\pi} = -1$, llegaremos de nuestras ecuaciones a dos frecuencias normales, $\omega_0 = 0$ y $\omega_1 = \sqrt{2\frac{k}{m}}$. La frecuencia de 0 puede ser preocupante, pero fisicamente corresponde al hecho de que tenemos una simetría espacial. De cualquier manera, esas son exactamente las frecuencias de ese oscilador, algo que cualquiera puede verificar trivialmente. Por buen camino vamos. 
+Como $\cos{\pi} = -1$, llegaremos de nuestras ecuaciones a dos frecuencias normales, $\omega_0 = 0$ y $\omega_1 = \sqrt{2\frac{k}{m}}$. La frecuencia de 0 puede ser preocupante, pero físicamente corresponde al hecho de que tenemos una simetría espacial. De cualquier manera, esas son exactamente las frecuencias de ese oscilador, algo que cualquiera puede verificar trivialmente. Por buen camino vamos. 
 
 \subsubsection*{Modos normales}
 
@@ -384,14 +397,138 @@ Similarmente, podemos encontrar al otro modo normal:
   \end{pmatrix}
 \end{equation}
 
-Estes modos corresponden a los usuales simétrico/anti-simétrico de los problemas con dos grados de libertad, que es lo esperado.
+Que podemos reescribir en términos de las coordenadas de equilibrio:
+
+\begin{equation}
+  \begin{aligned}
+  \label{etas}
+  \eta_0 = \bar{\rho}_1 + \bar{\rho}_2\\
+  \eta_1 = \bar{\rho}_1 - \bar{\rho}_2
+  \end{aligned}
+\end{equation}
+
+Estos modos corresponden a los usuales simétrico/anti-simétrico de los problemas con dos grados de libertad, que es lo  que se esperaría. 
+\subsection*{b) De la posición inicial, se las da velocidad $v_0$ a una de las masas. Calcula la posición de las masas con respeto al tiempo. Si $mg = kl_0$, determina el valor mínimo de $v_0$ para que el muelle sea perpendicular a alguna de las barras.}
+
+\subsubsection*{Posición en función del tiempo}
+
+Este problema es equivalente a las condiciones iniciales $\bar{\rho}_{1}(0) =\bar{\rho}_{2}(0) = \dot{\bar{\rho}_{2}}(0) = 0$ y $\dot{\bar{\rho_1}}(0) = v_{0}$. Equivalentemente, si ponemos estas condiciones en la ecuación \eqref{etas} esto sería tomar $\eta_{0}(0) = \eta_1{1}(0) = 0$ y $\dot{\eta}_{0}(0) = \dot{\eta}_1{1}(0) = v_0$. Sabemos que la expresión general para estos modos será:
+
+\begin{equation*}
+  \begin{aligned}
+  \eta_0 (t)= A_0 \cos(\omega_0 t) + B_0 \sin(\omega_0 t)
+  \eta_1 (t) = A_1 \cos(\omega_1 t) + B_1 \sin(\omega_1 t)
+  \end{aligned}
+\end{equation*}
+
+O sea, tendremos que:
+\begin{equation*}
+  \begin{aligned}
+  \eta_0 (0)= A_0 \cos(\omega_0 0) + B_0 \sin(\omega_0 0) = A_0 = 0
+  \eta_1 (0) = A_1 \cos(\omega_1 0) + B_1 \sin(\omega_1 0) = A_1 = 0
+  \end{aligned}
+\end{equation*}
+
+\begin{equation*}
+  \begin{aligned}
+  \dot{\eta}_0 (0)= B_0 \omega_0\cos(\omega_0 0) = B_0 \omega_0 = v_0
+  \dot{\eta}_1 (0) = B_1\omega_1 \cos(\omega_1 0) = B_1\omega_1 = v_0
+  \end{aligned}
+\end{equation*}
+
+De manera que:
+
+\begin{equation}
+  \begin{aligned}
+  \eta_0 (t) = \frac{v_0}{\omega_0} \sin(\omega_0 t)
+  \eta_1 (t) = \frac{v_0}{\omega_1} \sin(\omega_1 t)
+  \end{aligned}
+\end{equation}
+
+Finalmente, podemos extraer de la ecuación \eqref{etas} que:
+\begin{equation}
+  \bar{\rho_1}(t) = \frac{\eta_0 (t) + \eta_1(t)}{2} =\frac{v_0}{2\omega_0} \sin(\omega_0 t) +\frac{v_0}{2\omega_1} \sin(\omega_1 t)
+\end{equation}
+\begin{equation}
+  \bar{\rho_2} (t)= \frac{\eta_0 (t) - \eta_1(t)}{2} =\frac{v_0}{2\omega_0} \sin(\omega_0 t) -\frac{v_0}{2\omega_1} \sin(\omega_1 t)
+\end{equation}
+
+\subsubsection*{Velocidad mínima para que sea perpendicular cuando $mg = kl_0$}
 
 
-\subsection*{c) Se tumba el sistema de modo que exista horizontalmente}
+\begin{figure}[h]
+  \centering
+  \caption{Representación de la condición de perpendicularidad}
+  \label{perp}
+  \includegraphics[width=0.5\textwidth]{perp.jpg}
+\end{figure}
+Como se ilustra en la Figura \ref{perp}, para que sea perpendicular a una de las barras, es necesario que distancia $D$ verifique una relación particular con las variables (de no-equilibrio):
 
-En este caso, la única diferencia será que no tendremos la presencia de la gravedad. De esta manera, lo único que va a de hecho cambiar seran las posiciones de equilíbrio, no los modos o frecuencias normales. Para este sistema, tendremos que el equilíbrio estará en:
+$$D = \sqrt{\rho_2^2 - \rho_1^2}$$
 
-$$D^2 = l_0^2$$
+Esto significa que, necesariamente, 
+
+$$\rho_1^2 + \rho_2^2 -2\rho_1\rho_2\cos(2\alpha) = \rho_2^2 - \rho_1^2 $$
+
+O sea,
+
+\begin{equation}
+  \label{rho1rho2}
+  \rho_1 = \rho_2 \cos(2\alpha)
+\end{equation}
+
+Y, finalmente, que:
+
+\begin{equation}
+  \label{Dalt}
+  D = \rho_2 \sin(2\alpha)
+\end{equation}
+
+Para resolver el problema, utilizaremos, además de las ecuaciones \eqref{rho1rho2} y \eqref{Dalt}, la conservación de energía\footnote{Que está justificado por la independencia temporal explícita del lagrangiano.} y escribiremos que, para que $v_{0}$ sea la mínima energía para que exista un punto en que sean perpendiculares las barras:
+
+$$\frac{1}{2}m v_0^2 = \frac{1}{2}k(D^2-2l_0D)+mg\cos{\alpha}(\rho_1 + \rho_2)  = \frac{1}{2}k D^2 + kl_{0}((\rho_1 + \rho_2 )\cos(\alpha)-D)$$
+
+Que, por nuestras expresiones, se simplificara a:
+$$\frac{1}{2}m v_0^2 = \frac{1}{2}k\rho_2^2 \sin^2(2\alpha) + kl_{0}(\rho_2(\cos(2\alpha) + 1)\cos(\alpha) -\rho_2 \sin(2\alpha))$$
+$$ \frac{1}{2}m v_0^2 = \rho_2^2 \left(\frac{k\sin^2(2\alpha)}{2}\right) + \rho_2\left(kl_0(\cos^3(\alpha)-\sin(2\alpha))\right) $$
+De manera que tendremos, finalmente,
+
+\begin{equation}
+  \rho_2^2 \left(\frac{k\sin^2(2\alpha)}{2}\right) + \rho_2\left(kl_0(\cos^3(\alpha)-\sin(2\alpha))\right) - \frac{1}{2}m v_0^2 = 0
+\end{equation}
+
+Finalmente, tendremos que analizar para cuales $v_{0}$ el discriminante de esta ecuación cuadrática es 0, y esta será la velocidad mínima. No obstante, como $\left(\frac{k\sin^2(2\alpha)}{2}\right) \ge  0$ y  $\left(kl_0(\cos^3(\alpha)-\sin(2\alpha))\right)^{2} \ge 0$, tendremos que el discriminante ($b^2 -4ac$ para $ax^2 +bx + c$) será siempre positivo, y 0 si y solo si los otros términos son 0. De esa manera, no importa la velocidad, en algún momento tendremos una configuración en que el muelle está perpendicular a las barras.\footnote{En realidad, probamos apenas que la perpendicularidad es un estado accesible del espacio de fases a cualquier energía inicial E. Demostrar que un sistema mecánico explorará todo el espacio de fases permitido con tiempo suficiente es una cuestión un poco menos trivial.}
+
+
+\subsection*{c) Se tumba el sistema de modo que exista horizontalmente, de modo que todo está contenido en el plano $xz$. Que pasa con el sistema?}
+
+En este caso, la única diferencia será que no tendremos la presencia de la gravedad. De esta manera, lo único que va a de hecho cambiar serán las posiciones de equilibrio, ya que nuestros modos y frecuencias normales no dependen de ella. Entonces, tendremos las mismas frecuencias y modos normales, esto es:
+
+\begin{equation}
+  \begin{aligned}
+  \omega_0 = \sqrt{ \frac{k}{m} (1 - \cos{2\alpha})}\\
+  \omega_1 = \sqrt{ \frac{k}{m} (1 + \cos{2\alpha})}
+  \end{aligned}
+\end{equation}
+
+\begin{equation}
+  \begin{aligned}
+  \eta_0 = \bar{\rho}_1 + \bar{\rho}_2\\
+  \eta_1 = \bar{\rho}_1 - \bar{\rho}_2
+  \end{aligned}
+\end{equation}
+
+
+Para este sistema, tendremos que el potencial será:
+
+$$U = \frac{k}{2} (D-l_0)^{2}$$
+
+Y por lo tanto,
+
+$$\partial_{\rho_{1}}U = k(D-l_0)\partial_{\rho_{1}}D = 0 $$
+
+O sea\footnote{para la solución no-trivial},
+$$D = l_{0}$$
 
 Que, con la condición de $\rho_1= \rho_2 = \rho_{eq}$, será equivalente a:
 
@@ -400,6 +537,10 @@ $$2\rho_{eq}^2 - 2\rho_{eq}^2 \cos{2\alpha} = 2(1-\cos{2\alpha}) \rho_{eq}^2 = l
 \begin{equation}
 \rho_{eq} = \frac{l_0}{\sqrt{2(1-\cos{2\alpha})}} = \frac{l_0}{2\sin(\alpha)}
 \end{equation}
-Donde lo último se ha utilizado la sencilla relación de $1-\cos{2\alpha} = 2\sin^2{\alpha}$ para simplificar. Es útil mencionar que 
+
+Donde lo último se ha utilizado la sencilla relación de $1-\cos{2\alpha} = 2\sin^2{\alpha}$ para simplificar. Finalmente, aunque se ha calculado la posición de equilibrio `del 0', es importante mencionar que la cantidad calculada es exactamente lo que se obtiene si tomamos $g=0$ en la ecuación \eqref{eq}, que es exactamente lo que esperamos que pase. 
+
+Dicho de otra manera, el sistema entero es igual salvo la posición de equilibrio, que por su vez será en un punto un poco más distante del vértice, esto es, la gravedad no afecta el movimiento, solo el reposo.
+ 
 \end{document}
 
