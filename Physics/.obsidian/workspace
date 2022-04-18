@@ -7,12 +7,8 @@
         "id": "7841091e31ae8afc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Classical Mechanics/2nd Semester/Normal modes/The Double Pendulum.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classical Mechanics/2nd Semester/Normal modes/The Double Pendulum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +84,7 @@
   },
   "active": "7841091e31ae8afc",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2022-04-15 13.28.57.excalidraw.md",
     "Classical Mechanics/2nd Semester/Normal modes/The Double Pendulum.md",
     "Classical Mechanics/2nd Semester/Normal modes/Undampened oscillations.md",
     "Classical Mechanics/2nd Semester/Normal modes/Transverse Oscillations on a rope.md",
@@ -97,7 +93,6 @@
     "Classical Mechanics/2nd Semester/Normal modes/Driven Damped Pendulum.md",
     "Classical Mechanics/2nd Semester/Linearization of the Equations of Movement.md",
     "Classical Mechanics/2nd Semester/Small Oscilations and Normal Modes.md",
-    "Classical Mechanics/2nd Semester/The Harmonic Oscillator in 1D.md",
-    "Differential Equations/ODEs/First Order/Ricatti Equation.md"
+    "Classical Mechanics/2nd Semester/The Harmonic Oscillator in 1D.md"
   ]
 }

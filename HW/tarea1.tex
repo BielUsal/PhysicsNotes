@@ -299,13 +299,13 @@ O sea, nuestro Lagrangiano será:
 
 No es trivial obtener las posiciones de equilibrio de este sistema, pero utilizaremos dos hechos para hacerlo: 1) En el equilibrio, la derivada con respeto a las coordenadas es 0. 2) Por simetría, el equilibrio de este problema requiere $\rho_{1eq} = \rho_{2 eq} =\rho_{eq}$\footnote{Si el argumento de simetría no es suficiente, tomando los dos parciales y haciéndolos 0 te dará un sistema de ecuaciones donde una de las soluciones será esta condición.}. De esta manera, somo conducidos a:
 
-$$\left(\frac{\partial U}{\partial \rho_1}\right)_{\rho_1 = \rho_2 = \rho_{eq}} = 2(2\rho_{eq} \sin(\alpha)-l_0)\frac{k(2-\cos(2a))}{\sin(\alpha)} + mg\cos{(\alpha)} = 0$$
+$$\left(\frac{\partial U}{\partial \rho_1}\right)_{\rho_1 = \rho_2 = \rho_{eq}} = (2\rho_{eq} \sin(\alpha)-l_0)\frac{k(1-\cos(2a))}{2\sin(\alpha)} + mg\cos{(\alpha)} = 0$$
 
-De manera que:
+De manera que, después de utilizar la identidad de doble ángulo, tenemos que:
 
 \begin{equation}
 \label{eq}
-\rho_{eq} = \frac{l_0}{2\sin(\alpha)} - \frac{mg \cos{\alpha}}{4k(2-\cos{(2\alpha)})} 
+\rho_{eq} = \frac{l_0}{2\sin(\alpha)} - \frac{mg \cos{\alpha}}{2k\sin^2(\alpha)} = \frac{l_0}{2\sin(\alpha)} - \frac{mg \cot{(2\alpha)}}{2k\sin(\alpha)}
 \end{equation}
 
 \subsubsection*{Autofrecuencias}
@@ -333,7 +333,7 @@ Una ecuación bastante sencilla de resolver, de donde encontraremos que:
 
 $$\lambda = \frac{1}{m} (k \pm k\cos{2\alpha}) = \frac{k}{m} (1\pm \cos{2\alpha})$$
 
-De modo que las frequencias normales son:
+De modo que las frecuencias normales son:
 \begin{equation}
   \begin{aligned}
   \omega_0 = \sqrt{ \frac{k}{m} (1 - \cos{2\alpha})}\\
@@ -447,9 +447,11 @@ De manera que:
 
 Finalmente, podemos extraer de la ecuación \eqref{etas} que:
 \begin{equation}
+  \label{rho1}
   \bar{\rho_1}(t) = \frac{\eta_0 (t) + \eta_1(t)}{2} =\frac{v_0}{2\omega_0} \sin(\omega_0 t) +\frac{v_0}{2\omega_1} \sin(\omega_1 t)
 \end{equation}
 \begin{equation}
+  \label{rho2}
   \bar{\rho_2} (t)= \frac{\eta_0 (t) - \eta_1(t)}{2} =\frac{v_0}{2\omega_0} \sin(\omega_0 t) -\frac{v_0}{2\omega_1} \sin(\omega_1 t)
 \end{equation}
 
@@ -462,42 +464,37 @@ Finalmente, podemos extraer de la ecuación \eqref{etas} que:
   \label{perp}
   \includegraphics[width=0.5\textwidth]{perp.jpg}
 \end{figure}
-Como se ilustra en la Figura \ref{perp}, para que sea perpendicular a una de las barras, es necesario que distancia $D$ verifique una relación particular con las variables (de no-equilibrio):
-
-$$D = \sqrt{\rho_2^2 - \rho_1^2}$$
-
-Esto significa que, necesariamente, 
-
-$$\rho_1^2 + \rho_2^2 -2\rho_1\rho_2\cos(2\alpha) = \rho_2^2 - \rho_1^2 $$
-
-O sea,
+Como se ilustra en la Figura \ref{perp}, para que sea perpendicular a una de las barras, es necesario las variables verifiquen las relaciones trigonométricas estándar:
 
 \begin{equation}
   \label{rho1rho2}
   \rho_1 = \rho_2 \cos(2\alpha)
 \end{equation}
 
-Y, finalmente, que:
+Donde $\rho_{1} = \bar{\rho}_1 + \rho_{eq} $ y $\rho_{2} = \bar{\rho}_2 + \rho_{eq} $. Podemos reescribir la ecuación \eqref{rho1rho2} como:
+
+$$\rho_{1} - \cos(2\alpha)\rho_{2} = \bar{\rho}_1 + \rho_{eq} - \cos(2\alpha) \bar{\rho}_2 - \cos(2\alpha)\rho_{eq} = 0$$
+
+$$\bar{\rho}_{1} - \cos(2\alpha)\bar{\rho}_2 + \rho_{eq}(1-\cos(2\alpha)) = 0$$
+
+Equivalentemente, buscamos al valor mínimo de $v_{0}$ para que tenga raíz la ecuación $F(t) =\bar{\rho}_{1} - \cos(2\alpha)\bar{\rho}_2 + \rho_{eq}(1-\cos(2\alpha))$. De eso nos podemos asegurar, si queremos bastante sofisticación matemática, por el teorema de Bolzano. 
+
+No obstante, se puede hacer de manera más informal si requerimos que el mínimo de la función sea el mismo la raíz. Cual va a ser el mínimo global de nuestra función? Tendrá que ser el momento en que todas las amplitudes sean mínimas, o sea, por las ecuaciones \eqref{rho1} y \eqref{rho2}, que:
+
+$$\bar{\rho}_{1min} = -\frac{v_0}{2}\left( \frac{1}{\omega_0} + \frac{1}{\omega_1}\right)$$
+
+$$\bar{\rho}_{2min} = -\frac{v_0}{2}\left( \frac{1}{\omega_0} - \frac{1}{\omega_1}\right)$$
+
+O sea, podemos escribir nuestra expresión como:
+$$-\frac{v_0}{2}\left( \frac{1}{\omega_0} + \frac{1}{\omega_1}\right) +\frac{\cos(2\alpha)v_0}{2}\left( \frac{1}{\omega_0} - \frac{1}{\omega_1}\right) + \rho_{eq}(1-\cos(2\alpha)) = 0$$
+
+$$-\frac{v_0}{2}\left(\frac{\cos(2\alpha)+1}{\omega_0} + \frac{1-\cos(2\alpha)}{\omega_1} \right) = -\rho_{eq}(1-\cos(2\alpha)) $$
+
+De manera que, finalmente;
 
 \begin{equation}
-  \label{Dalt}
-  D = \rho_2 \sin(2\alpha)
+  v_0 =\frac{2\rho_{eq}(1-\cos(2\alpha))}{\frac{\cos(2\alpha)+1}{\omega_0} + \frac{1-\cos(2\alpha)}{\omega_1}}
 \end{equation}
-
-Para resolver el problema, utilizaremos, además de las ecuaciones \eqref{rho1rho2} y \eqref{Dalt}, la conservación de energía\footnote{Que está justificado por la independencia temporal explícita del lagrangiano.} y escribiremos que, para que $v_{0}$ sea la mínima energía para que exista un punto en que sean perpendiculares las barras:
-
-$$\frac{1}{2}m v_0^2 = \frac{1}{2}k(D^2-2l_0D)+mg\cos{\alpha}(\rho_1 + \rho_2)  = \frac{1}{2}k D^2 + kl_{0}((\rho_1 + \rho_2 )\cos(\alpha)-D)$$
-
-Que, por nuestras expresiones, se simplificara a:
-$$\frac{1}{2}m v_0^2 = \frac{1}{2}k\rho_2^2 \sin^2(2\alpha) + kl_{0}(\rho_2(\cos(2\alpha) + 1)\cos(\alpha) -\rho_2 \sin(2\alpha))$$
-$$ \frac{1}{2}m v_0^2 = \rho_2^2 \left(\frac{k\sin^2(2\alpha)}{2}\right) + \rho_2\left(kl_0(\cos^3(\alpha)-\sin(2\alpha))\right) $$
-De manera que tendremos, finalmente,
-
-\begin{equation}
-  \rho_2^2 \left(\frac{k\sin^2(2\alpha)}{2}\right) + \rho_2\left(kl_0(\cos^3(\alpha)-\sin(2\alpha))\right) - \frac{1}{2}m v_0^2 = 0
-\end{equation}
-
-Finalmente, tendremos que analizar para cuales $v_{0}$ el discriminante de esta ecuación cuadrática es 0, y esta será la velocidad mínima. No obstante, como $\left(\frac{k\sin^2(2\alpha)}{2}\right) \ge  0$ y  $\left(kl_0(\cos^3(\alpha)-\sin(2\alpha))\right)^{2} \ge 0$, tendremos que el discriminante ($b^2 -4ac$ para $ax^2 +bx + c$) será siempre positivo, y 0 si y solo si los otros términos son 0. De esa manera, no importa la velocidad, en algún momento tendremos una configuración en que el muelle está perpendicular a las barras.\footnote{En realidad, probamos apenas que la perpendicularidad es un estado accesible del espacio de fases a cualquier energía inicial E. Demostrar que un sistema mecánico explorará todo el espacio de fases permitido con tiempo suficiente es una cuestión un poco menos trivial.}
 
 
 \subsection*{c) Se tumba el sistema de modo que exista horizontalmente, de modo que todo está contenido en el plano $xz$. Que pasa con el sistema?}

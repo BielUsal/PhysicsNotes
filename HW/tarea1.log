@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.24)  15 MAR 2022 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.24)  15 MAR 2022 22:42
 entering extended mode
 **C:/Users/batti/Documents/Uni/PhysicsNotes/HW/tarea1.tex
 (C:/Users/batti/Documents/Uni/PhysicsNotes/HW/tarea1.tex
@@ -1318,13 +1318,13 @@ Package pdftex.def Info: masamuelle.png  used on input line 351.
 <perp.jpg, id=46, 495.8525pt x 543.02875pt>
 File: perp.jpg Graphic file (type jpg)
 <use perp.jpg>
-Package pdftex.def Info: perp.jpg  used on input line 463.
+Package pdftex.def Info: perp.jpg  used on input line 465.
 (pdftex.def)             Requested size: 226.48395pt x 248.03134pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8] [9 <C:/Users/batti/Documents/Uni/PhysicsNotes/HW/perp.jpg>] [10] [11] (C:/U
-sers\batti\Documents\Uni\PhysicsNotes\HW\tarea1.aux
+[8] [9 <C:/Users/batti/Documents/Uni/PhysicsNotes/HW/perp.jpg>] [10] (C:/Users\
+batti\Documents\Uni\PhysicsNotes\HW\tarea1.aux
 LaTeX Info: Redefining \sptext on input line 15.
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
@@ -1343,10 +1343,10 @@ Package logreq Info: Writing requests to 'tarea1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41487 strings out of 479334
- 990274 string characters out of 2857084
- 2015199 words of memory out of 3000000
- 58455 multiletter control sequences out of 15000+200000
+ 41488 strings out of 479334
+ 990280 string characters out of 2857084
+ 2015209 words of memory out of 3000000
+ 58456 multiletter control sequences out of 15000+200000
  411135 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,11n,117p,1892b,2684s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1367,10 +1367,10 @@ ic/amsfonts/cm/cmr8.pfb><C:/Users/batti/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/batti/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/batti/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on C:/Users\batti\Documents\Uni\PhysicsNotes\HW\tarea1.pdf (11 p
-ages, 366810 bytes).
+Output written on C:/Users\batti\Documents\Uni\PhysicsNotes\HW\tarea1.pdf (10 p
+ages, 364291 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
