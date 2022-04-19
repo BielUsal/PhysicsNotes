@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "fcc7e0df775bbdeb",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6a822999223f377",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Classical Mechanics/2nd Semester/Rotations, angular velocities and Euler Angles/Infinitesimal rotations.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38befacad33d7ff2",
+    "type": "split",
+    "children": [
+      {
+        "id": "14a63ee9cf14c5e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "484a2a603ab76bec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "dc99617db51a3296",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d505acbe510d7c2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "86644a8a43a0ae5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55a69ecb195873cc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Classical Mechanics/2nd Semester/Rotations, angular velocities and Euler Angles/Infinitesimal rotations.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e6a822999223f377",
+  "lastOpenFiles": [
+    "Classical Mechanics/2nd Semester/Rotations, angular velocities and Euler Angles/Infinitesimal rotations.md",
+    "Classical Mechanics/2nd Semester/Rotations, angular velocities and Euler Angles/Euler Angles.md",
+    "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Equations of Motion in NIRF.md",
+    "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Hell.md",
+    "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Non-Inertial Frames.md",
+    "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Lagrangian Formalism for NIRF.md",
+    "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Drawing 2022-03-21 12.15.00.excalidraw.md",
+    "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Relative movement of the earth.md"
+  ]
+}
