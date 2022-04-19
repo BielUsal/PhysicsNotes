@@ -6,3 +6,9 @@ Is gonna be our first topic. A lot of parallel with PHYS4, but with a lot more d
 
 ## [[Rotations, angular velocities and Euler Angles]]
 Proper hell
+
+## [[Non-Inertial Frames]]
+Actual proper hell
+
+## [[Rigid Bodies]]
+Oh no

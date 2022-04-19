@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7841091e31ae8afc",
+        "id": "5504017225bc7503",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Classical Mechanics/2nd Semester/Normal modes/The Double Pendulum.md",
+            "file": "Properties of the Inertia Tensor.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classical Mechanics/2nd Semester/Normal modes/The Double Pendulum.md",
+                "file": "Properties of the Inertia Tensor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7841091e31ae8afc",
+  "active": "5504017225bc7503",
   "lastOpenFiles": [
-    "Classical Mechanics/2nd Semester/Normal modes/The Double Pendulum.md",
-    "Classical Mechanics/2nd Semester/Normal modes/Undampened oscillations.md",
-    "Classical Mechanics/2nd Semester/Normal modes/Transverse Oscillations on a rope.md",
-    "Classical Mechanics/2nd Semester/Normal modes/The Harmonic Oscillator in 1D.md",
-    "Classical Mechanics/2nd Semester/Normal modes/Small Oscilations and Normal Modes.md",
-    "Classical Mechanics/2nd Semester/Normal modes/Driven Damped Pendulum.md",
-    "Classical Mechanics/2nd Semester/Linearization of the Equations of Movement.md",
-    "Classical Mechanics/2nd Semester/Small Oscilations and Normal Modes.md",
-    "Classical Mechanics/2nd Semester/The Harmonic Oscillator in 1D.md",
-    "Differential Equations/ODEs/First Order/Ricatti Equation.md"
+    "Properties of the Inertia Tensor.md",
+    "Classical Mechanics/2nd Semester/Rigid Bodies/Rigid Bodies.md",
+    "Classical Mechanics/2nd Semester/Rigid Bodies/Having diagonal subcreatures for the creature.md",
+    "Classical Mechanics/2nd Semester/Rigid Bodies/Drawing 2022-04-04 12.23.47.excalidraw.md",
+    "Classical Mechanics/2nd Semester/Rigid Bodies/Steiner's Theorem.md",
+    "Thermodynamics/2nd Semester/Chemical Reactions.md",
+    "Thermodynamics/2nd Semester/Applications.md",
+    "Classical Mechanics/1st Semester/Collisions/Collisions.md",
+    "Classical Mechanics/2nd Semester/Mechanics II.md",
+    "Classical Mechanics/1st Semester/Classical Mechanics.md"
   ]
 }

@@ -12,5 +12,6 @@
     "Calorimetric"
   ],
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "autoPairMarkdown": false
 }

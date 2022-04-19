@@ -13,6 +13,8 @@ In essence, we need to have some description of how things behave when it's very
 
 ## Going Buck-Wild
 
+### [[Some whacky (important) cycles]]
+
 ### [[Applications]]
 Thermodynamics is not just about Ideal Gases, it's also about like 5 other systems. Magnetohydronamics has a very cool name! We can also talk about elastics, about bubbles, about dielectrics, about non-ideal gases, and maybe even some cycles! This will just be talking about that.
 

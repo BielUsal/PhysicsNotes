@@ -4,3 +4,5 @@ Collisions come in all shapes and forms. They are universally annoying to deal w
 ## [[Elastic Collision of two particles]]
 
 Bread and butter, everything is conserved.
+
+## [[Scattering by a central potential]]

@@ -37,3 +37,7 @@ Anything dealing with stuff that has the form of:
 $$\frac{d\vec{X}}{dt} = \boldsymbol{A}\vec{X} + \vec{F}$$
 
 The astute reader will have noted that this is linear, therefore good.
+
+
+### [[Exponentiation of Matrices]]
+Both a general fact that will be useful in a lot of other things (Lie Algebras, $SU(N)$ and etc) but also has very concrete aplications to solving systems of ODEs, specially when they aren't homogeneous.
