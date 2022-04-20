@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.24)  20 APR 2022 00:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.24)  20 APR 2022 22:33
 entering extended mode
 **C:/Users/batti/Documents/Uni/PhysicsNotes/HW/2/tarea2.tex
 (C:/Users/batti/Documents/Uni/PhysicsNotes/HW/2/tarea2.tex
@@ -139,7 +139,17 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box93
 \@float@everytoks=\toks20
 \@floatcapt=\box94
-) (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks21
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip51
 For additional information on amsmath, use the `?' option.
@@ -147,7 +157,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
+\@emptytoks=\toks22
 \ex@=\dimen150
 )) (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -175,21 +185,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip16
 \c@parentequation=\count272
 \dspbrk@lvl=\count273
-\tag@help=\toks22
+\tag@help=\toks23
 \row@=\count274
 \column@=\count275
 \maxfields@=\count276
-\andhelp@=\toks23
+\andhelp@=\toks24
 \eqnshift@=\dimen153
 \alignsep@=\dimen154
 \tagshift@=\dimen155
 \tagwidth@=\dimen156
 \totwidth@=\dimen157
 \lineht@=\dimen158
-\@envbody=\toks24
+\@envbody=\toks25
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 ) (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
@@ -459,7 +469,7 @@ Package: csquotes 2021-01-04 v5.2k context-sensitive quotations (JAW)
 \csq@qlevel=\count406
 \csq@maxlvl=\count407
 \csq@tshold=\count408
-\csq@ltx@everypar=\toks26
+\csq@ltx@everypar=\toks27
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-01-04 v5.2k csquotes generic definitions (JAW)
 )
@@ -475,7 +485,7 @@ Package: tcolorbox 2020/10/09 version 4.42 text color boxes
 y
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks27
+\pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen159
 \pgfutil@tempdimb=\dimen160
 
@@ -502,12 +512,12 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
 
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 filtered.code.tex
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen161
 \pgf@y=\dimen162
@@ -525,9 +535,9 @@ filtered.code.tex
 \c@pgf@countb=\count410
 \c@pgf@countc=\count411
 \c@pgf@countd=\count412
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
 \pgf@sys@id@count=\count413
 
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
@@ -584,9 +594,9 @@ r.code.tex
 \pgfmath@dimen=\dimen171
 \pgfmath@count=\count416
 \pgfmath@box=\box98
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
 )
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex
@@ -733,8 +743,8 @@ Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\verbatim.st
 y
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks37
-\verbatim@line=\toks38
+\every@verbatim=\toks38
+\verbatim@line=\toks39
 \verbatim@in@stream=\read4
 ) (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
@@ -782,7 +792,7 @@ Package caption Info: float package is loaded.
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\afterpage.s
 ty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks39
+\AP@output=\toks40
 \AP@partial=\box112
 \AP@footins=\box113
 ) (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
@@ -801,7 +811,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen267
 \Gm@layouthoffset=\dimen268
 \Gm@layoutvoffset=\dimen269
-\Gm@dimlist=\toks40
+\Gm@dimlist=\toks41
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2021/01/26 3.53 The Babel package
@@ -834,7 +844,7 @@ Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
 df
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-\es@quottoks=\toks41
+\es@quottoks=\toks42
 \es@quotdepth=\count432
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
@@ -860,8 +870,8 @@ Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 .tex)
 \pgffor@iter=\dimen271
 \pgffor@skip=\dimen272
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
 ))
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -1134,20 +1144,20 @@ LaTeX Info: Redefining \% on input line 15.
 )
 \openout1 = `tarea2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1157,12 +1167,12 @@ ii
 \scratchbox=\box120
 \nofMPsegments=\count471
 \nofMParguments=\count472
-\everyMPshowfont=\toks44
+\everyMPshowfont=\toks45
 \MPscratchCnt=\count473
 \MPscratchDim=\dimen306
 \MPnumerator=\count474
 \makeMPintoPDFobject=\count475
-\everyMPtoPDFconversion=\toks45
+\everyMPtoPDFconversion=\toks46
 )
 (C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1211,8 +1221,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tarea2.bbl' found.
 (C:/Users\batti\Documents\Uni\PhysicsNotes\HW\2\tarea2.bbl)
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 *geometry* driver: auto-detecting
@@ -1249,30 +1259,42 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \sptext on input line 23.
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \sptext on input line 24.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+
+(C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+
+(C:\Users\batti\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 <foucault.jpg, id=4, 1818.795pt x 1577.895pt>
 File: foucault.jpg Graphic file (type jpg)
 <use foucault.jpg>
-Package pdftex.def Info: foucault.jpg  used on input line 34.
+Package pdftex.def Info: foucault.jpg  used on input line 35.
 (pdftex.def)             Requested size: 226.48395pt x 196.46593pt.
 [1
 
 {C:/Users/batti/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <C:/Users/batti/
-Documents/Uni/PhysicsNotes/HW/2/foucault.jpg>] [2]
-! Undefined control sequence.
-<recently read> \mathbb 
-                        
-l.112 ...r el isomorfismo entre $SO(2)$ y $U(1)$.}
-                                                   , $z = x + i y $. Si suma...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Documents/Uni/PhysicsNotes/HW/2/foucault.jpg>] [2] [3]
+<foucgraph.jpg, id=30, 562.1pt x 421.575pt>
+File: foucgraph.jpg Graphic file (type jpg)
+<use foucgraph.jpg>
+Package pdftex.def Info: foucgraph.jpg  used on input line 150.
+(pdftex.def)             Requested size: 452.9679pt x 339.72417pt.
+[4 <C:/Users/batti/Documents/Uni/PhysicsNotes/HW/2/foucgraph.jpg>] [5]
 
-[3] (C:/Users\batti\Documents\Uni\PhysicsNotes\HW\2\tarea2.aux
+LaTeX Warning: Command \textdegree invalid in math mode on input line 226.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 226.
+
+Missing character: There is no ° in font cmr12!
+[6] (C:/Users\batti\Documents\Uni\PhysicsNotes\HW\2\tarea2.aux
 LaTeX Info: Redefining \sptext on input line 15.
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
@@ -1282,11 +1304,11 @@ Package logreq Info: Writing requests to 'tarea2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40483 strings out of 479334
- 958375 string characters out of 2857084
- 1992033 words of memory out of 3000000
- 57444 multiletter control sequences out of 15000+200000
- 414866 words of font info for 66 fonts, out of 3000000 for 9000
+ 41010 strings out of 479334
+ 964141 string characters out of 2857084
+ 1993554 words of memory out of 3000000
+ 57950 multiletter control sequences out of 15000+200000
+ 418091 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,8n,117p,1894b,1791s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/batti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1301,13 +1323,16 @@ ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/batti
 rs/batti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
 ><C:/Users/batti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mr17.pfb><C:/Users/batti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb><C:/Users/batti/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><C:/Users/batti/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb>
-Output written on C:/Users\batti\Documents\Uni\PhysicsNotes\HW\2\tarea2.pdf (3 
-pages, 372879 bytes).
+nts/cm/cmr6.pfb><C:/Users/batti/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Users/batti/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><C:/Users/batti/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/batti/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/batti/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on C:/Users\batti\Documents\Uni\PhysicsNotes\HW\2\tarea2.pdf (6 
+pages, 446357 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
