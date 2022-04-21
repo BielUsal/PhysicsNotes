@@ -12,3 +12,6 @@ Actual proper hell
 
 ## [[Rigid Bodies]]
 Oh no
+
+## [[Special Relativity]]
+Maybe yes. Everything is in natural units

@@ -14,4 +14,3 @@ God I wish I were diagonal
 Good old Steiner, but done with some tensor algebra to make life easier.
 
 ## [[Properties of the Inertia Tensor]]
-

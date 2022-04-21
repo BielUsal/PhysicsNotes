@@ -233,11 +233,18 @@ $$T_{precUSAL} = 36.60 h = 36h 36 min$$
 
 Para calcular el momento de inercia del cono, utilizaremos que:
 
-$$I = \int dm = \int_S \sigma r^{2} d\Omega = \int_0^h \int_0^{2\pi} \sigma r^2 r d\phi dz$$
+$$I = \int r^2 dm = \int_S \sigma r^2  d\Omega$$
 
-Pero, para el cono, sabemos que $\sigma = \frac{M}{\pi R h}$ y que $r = z \tan\alpha $. O sea:
+Pero sabemos que podemos parametrizar (en cartesianas) el cono como: $(z \tan\alpha \cos\theta, z \tan\alpha \sin\theta, z)$. Calculamos los vectores tangentes:
+$$\boldsymbol{v}_\theta = z (-\tan\alpha \sin\theta,\tan\alpha \cos\theta , 0)$$
+$$\boldsymbol{v}_z = (\tan\alpha\cos\theta,\tan\alpha\sin\theta,1)$$
 
-$$I= \sigma\int_0^{2\pi}d\phi \int_0^h  r^3 \tan^3\alpha dz = \sigma \pi \frac{h}{4}  $$
+De manera que:
+$$||\bolsymbol{n}|| = z\tan\alpha\sec{\alpha}$$
+
+$$I= \sigma \int r^2 ||n||dzd\phi = \sigma\int_0^{2\pi}d\theta z^3 \tan\alpha \sec^3\alpha \int_0^h    dz = \sigma 2\pi \frac{h^4}{4} \tan\alpha \sec^3\alpha$$
+
+$$I = \sigma \pi (h\sec\alpha)^2 $$
 
 Para el lagrangeano, tendremos 3 términos cinéticos y 2 potenciales: 2 cinéticos para el cono (uno de rotación y otro de traslación) y uno para la masa, y un potencial para cada. Escribiéndolo, tenemos que:
 
@@ -250,5 +257,8 @@ Finalmente,
 \begin{equation}
   \mathcal{L} = \frac{1}{2} I \omega^2(t) + \frac{1}{2} M \dot{Z}^2 + \frac{1}{2} m  (\dot{r}^2 + r^2 \dot{\phi}^2+\dot{z}^2) - M g Z - mgz
 \end{equation}
+
+
+
 \end{document}
 
