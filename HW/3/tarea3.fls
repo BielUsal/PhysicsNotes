@@ -952,6 +952,12 @@ INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\x
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse-generic.tex
 OUTPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3-blx.bib
+INPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3.bbl
+INPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3.bbl
+INPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3.bbl
+INPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3.bbl
+INPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3.bbl
+INPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3.bbl
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -991,11 +997,11 @@ INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 OUTPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3.pdf
 INPUT C:\Users\batti\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3.aux
+INPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3.run.xml
 OUTPUT C:\Users\batti\Documents\Uni\PhysicsNotes\HW\3\tarea3.run.xml
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\batti\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
