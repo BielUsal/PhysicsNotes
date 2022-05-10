@@ -1,0 +1,63 @@
+%Every piece of package I've acumulated over the last years
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{imakeidx}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[backend=bibtex,style=verbose]{biblatex}
+\bibliography{bibliography}
+\usepackage{csquotes}
+\usepackage{tcolorbox}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{afterpage}
+\usepackage[margin=1in]{geometry}
+\usepackage[english,spanish]{babel}
+\usepackage{tikz}
+\usepackage{mwe}
+\usepackage{circuitikz}
+\usepackage{subcaption}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\title{Evaluación Continua de Mecánica III\\ Tema 4}
+\author{Gabriel D'Andrade Furlanetto}
+\maketitle 
+
+\section{Refracción relativista}
+
+\section{Sufrimiento relativista}
+
+\section{Tiovivo relativista}
+
+Este es un problema más sencillo de lo que puede parecer. Para la primera parte, aplicamos la formula que vimos por primera vez cuando teníamos no mucho más que 10 años:
+
+$$\ell = \pi D $$
+
+Ir al sistema de referencia $\mathcal{S}'$ solidario con el tiovivo es equivalente a hacer un boost de Lorentz en la dirección $\phi$. Como este boost será perpendicular a $d$, no habrá ningún cambio en el diámetro, esto es:
+
+$$D' = D$$ 
+
+Para el perímetro, informalmente podríamos aplicar directamente la contracción espacial porque, heurísticamente, la velocidad es `'circular', tal como el proprio perímetro. Formalmente, es trivial demostrar que cada elemento diferencial de longitud será paralelo a la velocidad, de manera que experimentará la contracción espacial estándar:
+
+$$d\ell' = \gamma d\ell $$
+
+Que podemos integrar por toda la longitud y obtener que:
+
+$$\ell ' = \gamma \ell = \gamma \pi D$$
+
+Trivialmente, calcularemos que:
+\begin{equation}
+  \label{enelle}
+  \frac{\ell'}{D'} = \gamma \pi \geq \pi
+\end{equation}
+  
+
+Para ponerlo explícitamente en términos de $\omega$, podemos escribir que $v = \omega \frac{D}{2}$ y que, por lo tanto, $\beta = \frac{ \omega D}{2 c}$ y $\gamma = \frac{c}{\sqrt{4c^2 - \omega^2 D^2}}$, y lo podemos sustituir en la ecuación \eqref{enelle} para obtener una expresión. Más importante que eso, vale fijarse que, al final, $\frac{\ell'}{D'}(D') \geq \pi$. 
+
+Ese resultado no contradice lo que medimos en $\mathcal{S}$, pero si que no es nada intuitivo. Por la primera parte, si la geometría en $\mathcal{S}'$ fuera la usual, se esperaría que, al no cambiar $D$, no debería cambiar la circunferencia, pero precisamente ahí está la solución de este enigma: La geometría en $\mathcal{S}'$ decididamente no puede ser la usual. De hecho, \textit{tiene} que tener curvatura no nula, y el hecho de que $\frac{\ell'}{D'}\geq \pi$ sugiere específicamente que estaríamos en una geometría hiperbólica.
+
+\end{document}
+

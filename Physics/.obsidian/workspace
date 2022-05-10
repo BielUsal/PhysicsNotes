@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Classical Mechanics/2nd Semester/Rotations, angular velocities and Euler Angles/Infinitesimal rotations.md",
+            "file": "Untitled.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classical Mechanics/2nd Semester/Rotations, angular velocities and Euler Angles/Infinitesimal rotations.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +89,14 @@
   },
   "active": "e6a822999223f377",
   "lastOpenFiles": [
-    "Classical Mechanics/2nd Semester/Rotations, angular velocities and Euler Angles/Infinitesimal rotations.md",
+    "Untitled.md",
+    "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Lagrangian Formalism for NIRF.md",
     "Classical Mechanics/2nd Semester/Rotations, angular velocities and Euler Angles/Euler Angles.md",
+    "Classical Mechanics/2nd Semester/Rotations, angular velocities and Euler Angles/Passive v. Active transformations.md",
+    "Classical Mechanics/2nd Semester/Rotations, angular velocities and Euler Angles/Infinitesimal rotations.md",
     "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Equations of Motion in NIRF.md",
     "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Hell.md",
     "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Non-Inertial Frames.md",
-    "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Lagrangian Formalism for NIRF.md",
     "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Drawing 2022-03-21 12.15.00.excalidraw.md",
     "Classical Mechanics/2nd Semester/Noninertial Referece Frames/Relative movement of the earth.md"
   ]

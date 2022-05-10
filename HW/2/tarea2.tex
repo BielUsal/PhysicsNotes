@@ -134,13 +134,13 @@ De manera que tendremos dos valores de lambda como solución:
 
 $$\lambda = \Omega \cos\theta \pm \sqrt{(\Omega\cos\theta)^2 + \left(\frac{g}{l}\right)^2} = \Omega_\theta \pm \omega$$
 
-Donde, por claridad, hemos definido $\Omega_\theta = \Omega \cos\theta$ y $\omega = \sqrt{(\Omega\cos\theta)^2 + \left(\frac{g}{l}\right)^2}$. De esa manera, tendremos que la solución general para nuestro problema será:
+Donde, por claridad, hemos definido $\Omega_\theta = \Omega \cos\theta$ y $\omega = \sqrt{\Omega_\theta^2 + \left(\frac{g}{l}\right)^2}$. De esa manera, tendremos que la solución general para nuestro problema será:
 
-$$z = C_1 e^{it(\Omega + \omega)} +C_2 e^{it(\Omega - \omega)} = C_1 e^{i\Omega t} e^{i\omega t} + C_2 e^{i \Omega t} e^{-i\omega t} = e^{i\Omega t}\left(C_1 e^{i\omega t} + C_2 e^{-i\omega t}\right) $$
+$$z = C_1 e^{it(\Omega_\theta + \omega)} +C_2 e^{it(\Omega_\theta - \omega)} = C_1 e^{i\Omega_\theta t} e^{i\omega t} + C_2 e^{i \Omega_\theta t} e^{-i\omega t} = e^{i\Omega_\theta t}\left(C_1 e^{i\omega t} + C_2 e^{-i\omega t}\right) $$
 
 \begin{equation}
   \label{sol1}
-  z = e^{i\Omega t}\left(C_1 e^{i\omega t} + C_2 e^{-i\omega t}\right) 
+  z = e^{i\Omega_\theta t}\left(C_1 e^{i\omega t} + C_2 e^{-i\omega t}\right) 
 \end{equation}
 
 Si queremos explícitamente encontrar las soluciones en nuestras variables original, sabemos que $x = \Re (z)$ e $y = \Im (z)$ y estas son operaciones triviales de hacer, pero no iluminan mucho nuestra solución.\footnote{Hacer eso sería como resolver el problema de dos cuerpos en polares y pasarlo a cartesianas para `interpretar los resultados'}. Si miramos directamente a la ecuación \eqref{sol1}, podremos apreciar que tenemos un término envolvente, de frecuencia $\Omega_{\theta}$, y otro término interior, combinación lineal de frecuencias $\omega$ y $-\omega$. Este término interior corresponde exactamente a una elipsis en el plano complejo, y el exterior a una rotación de esta elipsis (Esto es, un término de precesión). Para valores escogidos de manera aleatoria, tenemos la siguiente representación gráfica:
@@ -170,8 +170,8 @@ Que son absolutamente triviales de resolver, ya que son apenas osciladores armó
 
 \begin{equation}
 \begin{aligned}
-  x_0(t) = A_1 \cos(\omega_0 t + \delta_1)\\
-  y_0(t) = A_2 \cos(\omega_0 t + \delta_2) 
+  x_0(t) = A_1 \cos(\omega_0 t) + B_1 \sin\omega_0 t)\\
+  y_0(t) = A_2 \cos(\omega_0 t)  + B_2 \sin\omega_0 t)
 \end{aligned}
 \end{equation}
 
@@ -189,12 +189,39 @@ Que podemos escribir como:
 
 \begin{equation}
 \begin{aligned}
-  \ddot{x}_1 + \omega_0^2 x_1 = -2A_2 \omega_0 \sin(\omega_0 t + \delta_2)\\
-  \ddot{y}_1 + \omega_0^2 y_1 = 2A_1 \omega_0 \sin(\omega_0 t + \delta_1)
-\end{aligned}
-  \label{1st}
+  \ddot{x}_1 + \omega_0^2 x_1 = 2\omega_0(A_2 \cos(\omega_0 t)  + B_2 \sin\omega_0 t))\\
+  \ddot{y}_1 + \omega_0^2 y_1 = -2\omega_0(A_1 \cos(\omega_0 t)  + B_1\sin\omega_0 t))
+  \end{aligned}
 \end{equation}
 
+Y esto se puede resolver con métodos estándar para obtener 
+
+\begin{equation}
+\begin{aligned}
+  x_1 = (A_2 t + C_1) \cos(\omega_0 t) + (B_2 t +  C_2) \sin{\omega_0 t}\\
+  y_1 = (-A_1 t + C_3) \cos(\omega_0 t) + (-B_1 t +  C_4) \sin{\omega_0 t}\\
+\end{aligned}
+\end{equation}
+
+De manera que nuestra solución es:
+
+\begin{equation}
+\begin{aligned}
+  x_1 = (A_2 t + C_1) \cos(\omega_0 t) + (B_2 t +  C_2) \sin{\omega_0 t}\\
+  y_1 = (-A_1 t + C_3) \cos(\omega_0 t) + (-B_1 t +  C_4) \sin{\omega_0 t}\\
+\end{aligned}
+\end{equation}
+
+Pero, si escribimos $x = x_0 + \Omega_\theta x_1 $, vamos a percibir que tenemos demasiadas constantes para nuestra solución: Como son ambas de orden 2, deberíamos tener 2 constantes para cada coordenada. Tenemos bastantes más que eso, lo que significa adicionamos soluciones extraneas al problema , y tendremos que poner nuestras expresiones de $x$ e $y$ en la ecuación \eqref{eqmov1}. De esa manera, tendremos finalmente que:
+
+\begin{equation}
+\begin{aligned}
+  x_1 = C_1 \cos(\omega_0 t) - \Omega t C_2 \sin{\omega_0 t}\\
+  y_1 = C_2 \sin{\omega_0 t}-C_1 t \cos(\omega_0 t) \\
+\end{aligned}
+\end{equation}
+
+Si tomamos de la ecuación \eqref{sol1} que $x = \Re(z)$, que $y = \Im(z)$
 \subsection*{e) Demuestra que el período de oscilación del péndulo es aproximadamente $T = T_{0}(1-\frac{\Omega^2}{2\omega^2_0}\cos^2\theta) $}
 
 En la sección c), determinamos que el péndulo oscilaba con frecuencia angular $\omega = \sqrt{(\Omega\cos\theta)^2 + \left(\frac{g}{l}\right)^2}$. Podemos manipular un poco esta expresión:
@@ -209,7 +236,7 @@ De manera que, para nuestra frecuencia particular tendremos que:
 
 $$T = \frac{2\pi}{\omega_0} \left(1 + \frac{\Omega^2}{\omega_0^2}\right)^{-\frac{1}{2}}$$
 
-Pero, sabemos que $T_{0} =\frac{2\pi}{\omega} $ y que podemos aproximar $(1+x)^{n} =1+nx$, o sea, podemos escribir que:
+Pero, sabemos que $T_{0} =\frac{2\pi}{\omega} $ y que podemos aproximar $(1+x)^{n} \approx1+nx$, o sea, podemos escribir que:
 
 \begin{equation}
   T \approx \frac{2\pi}{\omega_0} \left(1 - \frac{\Omega^2}{2\omega^2}\right)
@@ -240,11 +267,18 @@ $$\boldsymbol{v}_\theta = z (-\tan\alpha \sin\theta,\tan\alpha \cos\theta , 0)$$
 $$\boldsymbol{v}_z = (\tan\alpha\cos\theta,\tan\alpha\sin\theta,1)$$
 
 De manera que:
-$$||\bolsymbol{n}|| = z\tan\alpha\sec{\alpha}$$
+$$||\boldsymbol{n}|| = z\tan\alpha\sec{\alpha}$$
 
-$$I= \sigma \int r^2 ||n||dzd\phi = \sigma\int_0^{2\pi}d\theta z^3 \tan\alpha \sec^3\alpha \int_0^h    dz = \sigma 2\pi \frac{h^4}{4} \tan\alpha \sec^3\alpha$$
+$$I= \sigma \int r^2 ||n||dzd\phi = \sigma\int_0^{2\pi}d\theta z^3 \tan^3\alpha \sec\alpha \int_0^h    dz = \sigma 2\pi \frac{h^4}{4} \tan^3\alpha \sec\alpha$$
 
-$$I = \sigma \pi (h\sec\alpha)^2 $$
+$$I = \sigma \pi h\tan\alpha h\sec{\alpha} \frac{(h\tan\alpha)^2}{2} = \sigma \pi r l \frac{r^2}{2}  $$
+
+Pero, como $\sigma = \frac{M}{S} = \frac{M}{\pi r l}$, tendremos que:
+
+\begin{equation}
+  I = M \frac{r^2}{2} = M \frac{h^2 \tan^2{\alpha}}{2} 
+\end{equation}
+
 
 Para el lagrangeano, tendremos 3 términos cinéticos y 2 potenciales: 2 cinéticos para el cono (uno de rotación y otro de traslación) y uno para la masa, y un potencial para cada. Escribiéndolo, tenemos que:
 
@@ -255,10 +289,132 @@ $$V = M g Z + mgz$$
 Finalmente, 
 
 \begin{equation}
+  \label{lagras}
   \mathcal{L} = \frac{1}{2} I \omega^2(t) + \frac{1}{2} M \dot{Z}^2 + \frac{1}{2} m  (\dot{r}^2 + r^2 \dot{\phi}^2+\dot{z}^2) - M g Z - mgz
 \end{equation}
 
+Pero es importante fijarse que esas no son coordenadas generalizadas para el problema, ya que no idénticamente verifican las ligaduras del cono. De hecho, las coordenadas generalizadas serían ($s$, $\phi$), donde $s$ es la distancia de la canica al vértice, pero como este vértice accelera uniformemente para abajo, esta no sería una coordenada inercial.
+
+\subsection*{b) Haz un cambio de coordenadas a unas variables que roten con el cono y encuentra las ecuaciones de movimiento de la canica. Demuestra que son las mismas que se obtendrían con la segunda Ley de Newton} 
+
+Además de cambiarnos la coordenada $\phi$ a una que rote con el sistema, vamos a cambiar las coordenadas $z$ para que no nos tengamos que preocuparnos con los términos de gravedad\footnote{Por el principio de equivalencia, sabemos que \textit{no} debería influir la gravedad en nuestro problema, pero eso no es claro a priori del Lagrangeano en la ecuación \eqref{lagras}. Ese cambio de coordenadas lo hace explícito.} y que posamos implementar coordenadas generalizadas apropiadas. Empezamos por los siguientes cambios:
+
+$$Z \to \bar{Z} = Z +\frac{ gt^{2}}{2}$$
+$$z \to \bar{z} = z +\frac{ gt^{2}}{2} $$
+
+Que nos llevará a un Lagrangeano de forma:
+
+$$\mathcal{L} = \frac{1}{2} I \omega^2(t) + \frac{1}{2} M \left(\dot{\bar{Z}}+gt\right) + \frac{1}{2} m  \left(\dot{r}^2 + r^2 \dot{\phi}^2+\left(\dot{\bar{Z}}+gt\right)\right) - M g \left(\bar{Z}+\frac{ gt^{2}}{2}\right) - mg\left(\bar{z}+\frac{ gt^{2}}{2}\right)$$
+
+Que parece bastante más complicado que nuestro Lagrangeano original, algo un poco preocupante. Pero, si analizamos los términos de velocidades, veremos los dos tienen forma de $\frac{m}{2}\dot{\bar{x}}^2 + m\dot{\bar{x}} gt + \frac{m}{2} g^2 t^2$. Sin entrar en detalles excesivos, los términos con $t$ van a cancelar los términos potenciales, \textit{salvo una derivada total en t}. Pero, las ecuaciones de movimiento son invariantes bajo este tipo de transformación del Lagrangeano , esto es $\mathcal{L}' = \mathcal{L} + \dfrac{d F}{dt}$ producen las mismas ecuaciones de movimiento. Al final de ese proceso un poco tenebroso, tendremos la siguiente expresión\footnote{En este sistema de coordenadas, $\bar{Z}$ es una coordenada cíclica pero $\bar{z}$ no.}:
+\begin{equation}
+\mathcal{L} = \frac{1}{2} I \omega^2(t)+ \frac{1}{2} m  (\dot{r}^2 + r^2 \dot{\phi}^2+\dot{\bar{z}}^2)
+\end{equation}
+
+Ahora, pasamos a las coordenadas $\bar{z} = s \cos\alpha$ y $r = s \sin\alpha $, donde $s$ es la distancia de la canica al vértice. Trivialmente, podemos calcular que:
+
+\begin{equation*}
+  \begin{aligned}
+    \dot{\bar{z}} = \dot{s} \cos{\alpha}\\
+    \dot{r} = \dot{s} \sin\alpha
+  \end{aligned}
+\end{equation*}
+
+Sustituindo en nuestra expresión, tendremos que:
+
+$$\mathcal{L} = \frac{1}{2} I \omega^2(t)+ \frac{1}{2} m  (\dot{s}^2 \sin^2\alpha + s^2 \sin^2\alpha\dot{\phi}^2+\dot{s}^2 \cos^2\alpha)$$
+
+O sea, que:
+
+\begin{equation}
+  \mathcal{L} = \frac{1}{2} I \omega^2(t) + \frac{1}{2} m (\dot{s}^2 + s^2\sin^2\alpha \dot{\phi})
+\end{equation}
+
+Finalmente, hacemos el cambio de coordenadas que nos pide:
+
+$$\dot{\phi} \to \dot{\vartheta} = \dot{\phi} - \omega(t)$$
+
+Y ponemoslo en el Lagrangeano:
+
+$$\mathcal{L} = \frac{1}{2} I \omega^2(t) + \frac{1}{2} m (\dot{s}^2 + s^2\sin^2\alpha (\dot{\vartheta} + \omega(t))^2)$$
+
+Si expandimos el término de las velocidades angulares en parentesis y agrupamos todo lo similar, tendremos que:
 
 
+\begin{equation}
+  \mathcal{L} = \frac{1}{2}(I+m s^2 \sin^2\alpha ) \omega^{2} + m s^{2}\sin^2\alpha \dot{\vartheta}\omega + \frac{1}{2}ms^2 \sin^2\alpha \dot{\vartheta}^2 + \frac{1}{2}m\dot{s}^2
+\end{equation}
+
+Que es nuestro Lagrangeano final. Pero, es trivial observar que $\vartheta$ es cíclica, y por lo tanto se conserva $p_{\vartheta}$:
+
+\begin{equation}
+  \ell = m s^2 \sin^2\alpha \omega + m s^2 \sin^2\alpha \dot{\vartheta} = m s^2 \sin^2\alpha (\omega + \dot{\vartheta}) 
+\end{equation}
+
+De manera que:
+
+$$\dot{\vartheta} +  \omega = \frac{\ell}{m\sin^2\alpha s^2}   $$
+
+Escribimos la ecuación de E-L para $s$, donde tendremos que:
+
+$$\frac{\partial \mathcal{L}}{\partial s} = \frac{d}{dt}\left(\frac{\partial \mathcal{L}}{\partial \dot{s}}\right)$$  
+
+$$m s \sin^2\alpha(\omega +\dot{\vartheta})^2 = m\ddot{s}$$
+
+De donde tendremos que:
+
+$$m s \sin^2{\alpha} \left(\frac{\ell}{m\sin^2\alpha s^2}\right)^2  = \frac{\ell}{m \sin^2\alpha s^3 } = m\ddot{s}$$
+
+O sea;
+
+\begin{equation}
+  \label{mov2}
+  m \ddot{s} = \frac{\ell}{m \sin^2\alpha s^3 }
+}
+\end{equation}
+
+Los resultados son idénticos al que se tendría si aplicáramos las leyes de Newton en un sistema no-inercial. Hacer el desarrollo explícitamente llevaría más de que todo el desarrollo de Lagrange que hemos hecho hasta ahora.
+
+\subsection*{c) Se verifica que $\dot{\vartheta} = 0$. Si $s(0) = D$ y $\omega(0) = \omega_0$, obtén $\omega(t)$ en función de $s(t)$.}
+
+Encontrar $\omega$ en función de $s$ es básicamente trivial: Como $\dot{\vartheta} = 0$, $\ell = m\omega \sin^{2}\alpha s^2$, de manera que $\omega = \frac{\ell}{m \sin^2\alpha s^2}$. Pero como sabemos que $\ell$ es constante de movimiento y tenemos nuestras condiciones iniciales, podemos calcularlo explícitamente:
+
+\begin{equation}
+  \label{elle}
+  \ell = m\omega_0 \sin^{2}\alpha D^2
+\end{equation}
+
+De manera que tenemos $\omega$ como función de $s$:
+
+\begin{equation}
+\omega = \frac{\omega_0 D^2 }{s^2}
+\end{equation}
+
+\subsection*{d) Determina la velocidad mínima $v_{0}$ para que la canica descienda hasta una distancia $\frac{D}{2}$ }
+
+En este problema, como no tenemos ningún término de energía potencial y el sistema es natural\footnote{La energía cinética es función homogénea de grado dos de los momentos canónicos}, el Lagrangeano es directamente el Hamiltoneano del sistema, y como no depende explícitamente del tiempo, es por lo tanto una cantidad conservada. De manera que podemos escribir que:
+
+$$\mathcal{L}_{inicial} =\frac{1}{2}(I+m D^2 \sin^2\alpha) \omega_0^2 + \frac{1}{2}m v_0^2 = \frac{1}{2} \left(I + \frac{m
+\sin^2\alpha D^{2}}{4}\right)\left(\frac{4\omega_0 D^2 }{D^2}\right)^2 =  \mathcal{L}_{final}$$
+
+O sea:
+
+$$m v_0^2 = (16I \omega_{0}^2 - I\omega_0^2) + (4m\sin^2\alpha D^2\omega_0^2 - m\sin^2\alpha D\omega_0^2 ) = (15I + 3m\sin^2\alpha D^2)\omega_0^2 $$
+
+De manera que:
+
+\begin{equation}
+  v_0 = \omega_0\sqrt{\frac{15I}{m} + 3m\sin^2\alpha D^2} 
+\end{equation}
+
+A la última parte de la pregunta, es imposible llegar al vértice.  Si volvemos al problema anterior y hacemos llegar a $\frac{D}{n}$, tendríamos que\footnote{nuestro problema correspondería a n = 2}:
+
+$$v_{0} = \omega_0\sqrt{\frac{(n^4 - 1)I}{m} + (n^2-1)m\sin^2\alpha D^2}  $$
+
+Pero el caso de llegar al vértice correspondería a tomar el límite para $n\to\infty$, y eso nos llevaría a una velocidad inicial infinita. Por lo tanto, no es posible llegar al vértice.
+
+\subsection*{e) Si tomamos $v_0=0$, bajo qué condiciones la canica permanecerá quieta respecto del cono?}
+
+Este problema no es más que hacer que la aceleración de la ecuación \eqref{mov2} sea nula, que en este caso será equivalente a hacer el momento angular nulo. Por la ecuación \eqref{elle}, esto solo se cumple cuando o $\omega_{0} = 0$ o $D = 0$. Ambos casos son bastante intuitivos: El primero corresponde al cono no rotar, y como pragmáticamente no tenemos gravedad en el sistema, la canica se quedaría quieta; El segundo corresponde a un equilibrio altamente inestable del sistema, que viene dado por tenermos una canica que, por ser puntual, no sentiría la rotación en $r=0$ 
 \end{document}
 
